@@ -29,6 +29,10 @@ html {
   background-color: #444444;
 }
 
+.bg-green {
+  background-color: #d2f3e0;
+}
+
 /* END COLORS */
 /* Width Sizes*************** */
 
@@ -46,6 +50,25 @@ html {
 
 .width-450 {
   width: 450px;
+}
+.width-500 {
+  width: 500px;
+}
+
+.width-600 {
+  width: 600px;
+}
+
+.width-650 {
+  width: 650px;
+}
+
+.width-680 {
+  width: 680px;
+}
+
+.width-700 {
+  width: 700px;
 }
 
 .width-750 {
@@ -248,8 +271,6 @@ html {
   padding: 90px 0;
 }
 
-
-
 .central-tag {
   background-color: #FEE45B;
   height: 110px;
@@ -258,6 +279,8 @@ html {
   padding-top: 30px;
   padding-left: 150px;
   margin-top: 65px;
+  margin: 0 auto;
+  position: relative;
 }
 
 .central-tag p {
@@ -269,12 +292,58 @@ html {
 }
 
 .tittle-text {
-  background-color: pink;
+  /* background-color: pink; */
   font-size: 72px;
   font-weight: 900;
   color: #444444;
+  text-align: center;
+  margin-top: -2.2rem;
+}
+
+.white-line-central {
+    height: 4px;
+    background-color: #fff;
+    margin-top: 20px;
+    position: absolute;
+    right: 0;
+}
+
+.kpi-cards {
+  padding: 0 0;
+  margin-top: 8rem;
+}
+
+.tag-card {
 
 }
+
+.kpi-card {
+  /* background-color: pink; */
+  padding: 0 1rem;
+}
+
+.kpi-card h4 {
+  font-size: 71px;
+  font-weight: 900;
+  text-align: center;
+}
+
+.kpi-card h3 {
+  font-size: 45px;
+  font-weight: 900;
+  text-align: center;
+  margin-top: -1.5rem;
+}
+
+.kpi-card p {
+  font-size: 24px;
+  font-weight: 300;
+  text-align: center;
+  padding: 0 1rem;
+}
+
+
+
 
 
 /* END WHY SECTION */
