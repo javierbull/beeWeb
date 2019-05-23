@@ -15,7 +15,30 @@ html {
   scroll-behavior: smooth;
 }
 
-/* Width Sizes */
+/* COLORS******************* */
+
+.bg-gray {
+  background-color: #F5F5F3;
+}
+
+.bg-yellow {
+  background-color: #FEE45B;
+}
+
+.bg-black {
+  background-color: #444444;
+}
+
+/* END COLORS */
+/* Width Sizes*************** */
+
+.width-200 {
+  width: 200px;
+}
+
+.width-250 {
+  width: 200px;
+}
 
 .width-300 {
   width: 300px;
@@ -219,3 +242,39 @@ html {
 }
 
 /* End About Section */
+
+/* WHY SECTION*********************** */
+.why-section {
+  padding: 90px 0;
+}
+
+
+
+.central-tag {
+  background-color: #FEE45B;
+  height: 110px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+  padding-left: 150px;
+  margin-top: 65px;
+}
+
+.central-tag p {
+  display: inline-block;
+  font-size: 28px;
+  font-weight: bold;
+  color: #fff;
+  padding-right: 1rem;
+}
+
+.tittle-text {
+  background-color: pink;
+  font-size: 72px;
+  font-weight: 900;
+  color: #444444;
+
+}
+
+
+/* END WHY SECTION */
