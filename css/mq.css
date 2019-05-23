@@ -1,0 +1,283 @@
+@media (min-width: 320px) and (max-width: 600px ) {
+
+	/* MOBILE */
+	body{
+		background-color: #a9eec2;
+	}
+
+	/* VIDEO SECTION */
+
+	.bg-video {
+		position: relative;
+		height: 80vh;
+	}
+
+	.header-video {
+		height: 80vh;
+	}
+
+	.video-content {
+		background-color: pink;
+		bottom: 0;
+		left: 1rem;
+		right: 1rem;
+		bottom: 42px;
+		position: absolute;
+	}
+
+	.header-overlay {
+	  width: 100vw;
+		height: 80vh;
+	}
+
+	.video-content h1 {
+		/* color: tomato; */
+		font-size: 35px;
+		line-height: 36px;
+		text-align: center;
+		/* background-color: green; */
+	}
+
+	.video-content h2 {
+		/* background-color: lightblue; */
+		display: block;
+	  font-size: 16PX;
+	  line-height: 19px;
+	  display: block;
+		text-align: center;
+	}
+
+	.video-content a {
+		/* background-color: tomato; */
+		font-size: 16px;
+		text-align: center;
+		margin-top: 0;
+		margin-left: auto;
+		margin-right: auto;
+		width: 200px;
+		height: 48px;
+	}
+
+	.button {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	/* END VIDEO SECTION */
+
+	/* ABOUT SECTION ************************/
+	.about-block {
+	  /* background-color: lightblue; */
+	  height: auto;
+	  margin-top: 52px;
+	  margin-bottom: 40px;
+	}
+
+	.tag {
+	  height: 40px;
+		margin-left: 0;
+		margin-top: -20px;
+		padding-left: 1rem;
+	}
+
+	.about-text p {
+		/* background-color: peru; */
+	  font-size: 16px;
+	  font-weight: 300;
+	  line-height: 29px;
+		padding-left: 0;
+	}
+
+
+	.tag p {
+		/* background-color: tomato; */
+	  display: inline-block;
+	  font-size: 12px;
+	  font-weight: bold;
+	  /* color: blue; */
+		margin-top: -30px;
+	}
+
+	.about-text {
+		background-color: pink;
+	}
+
+	.about-text h2 {
+	  /* background-color: pink; */
+	  font-size: 28px;
+	  font-weight: 900;
+	  color: #444444;
+	  margin-top: -50px;
+		padding-left: 0;
+		text-align: center;
+		margin-top: -16px;
+	}
+
+	.white-line {
+		width: 230px;
+		margin-top: -16px;
+		height: 2px;
+	}
+
+	.about-block a {
+		/* background-color: tomato; */
+		font-size: 16px;
+		text-align: center;
+		margin-top: 0;
+		height: 48px;
+	}
+
+
+	/* END ABOUT SECTION */
+
+}
+
+/* END MOBILE */
+
+
+/* TABLET */
+@media (min-width: 768px) and (max-width: 1024px ) {
+	body{
+		background-color: lightblue;
+	}
+
+	.bg-video {
+		height: 43vh;
+		width: 100vw;
+	}
+
+	.header-video {
+		height: 43vh;
+		width: 100vw;
+
+	}
+
+	.header-video video {
+		width: 100vw;
+	}
+
+	.header-overlay {
+	  width: 100vw;
+		height: 43vh;
+		/* display: none; */
+	}
+
+	.video-content h1 {
+		/* background-color: tomato; */
+		font-size: 40px;
+		line-height: 48px;
+	}
+
+	.video-content h2 {
+		/* background-color: pink; */
+		display: block;
+	  font-size: 16PX;
+	  line-height: 19px;
+	  display: block;
+		padding-bottom: 1rem;
+	}
+
+	.video-content {
+		/* background-color: green; */
+		position: absolute;
+		top: 120px;
+	}
+
+	.video-content a {
+		/* background-color: tomato; */
+		font-size: 16px;
+		/* text-align: center; */
+		margin-top: 0;
+		width: 200px;
+		height: 48px;
+	}
+
+	.button {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	/* ABOUT SECTION --------------------*/
+
+
+	.about-block {
+	  /* background-color: tomato; */
+	  height: auto;
+	  margin-top: 75px;
+	  margin-bottom: 45px;
+	}
+
+	.about-img {
+	  /* background-color: tomato; */
+	  padding: 0 0;
+		width: 450px;
+	}
+
+/* ******************* */
+	.about-block .container {
+		/* background-color: teal; */
+		margin: 0 0 ;
+
+	}
+/* *********************** */
+
+.tag {
+	width: 19.15rem;
+	height: 40px;
+	margin-left: -50px;
+	margin-top: 20px;
+	padding-left: 3rem;
+}
+
+.about-text {
+	margin-top: -1rem;
+}
+
+.about-text p {
+	/* background-color: peru; */
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 29px;
+	padding-left: 0.5rem;
+
+}
+
+.tag p {
+	/* background-color: tomato; */
+	display: inline-block;
+	font-size: 12px;
+	font-weight: bold;
+	margin-top: -30px;
+	margin-left: -0.5rem;
+}
+
+.about-text h2 {
+	/* background-color: pink; */
+	font-size: 28px;
+	font-weight: 900;
+	color: #444444;
+	margin-top: -50px;
+	padding-left: 0.5rem;
+	margin-top: -16px;
+}
+
+.white-line {
+	width: 350px;
+	margin-top: -16px;
+	height: 2px;
+}
+
+.about-block a {
+	/* background-color: tomato; */
+	font-size: 16px;
+	text-align: center;
+	margin-top: 0;
+	margin-left: -1.8rem;
+	height: 48px;
+}
+	/* END ABOUT SECTION */
+}
+
+/* END TABLET */
