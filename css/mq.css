@@ -82,21 +82,21 @@
 	}
 
 	.about-text p {
-		/* background-color: peru; */
+		background-color: teal;
 	  font-size: 16px;
 	  font-weight: 300;
 	  line-height: 29px;
-		padding-left: 0;
+		padding: 0 1rem;
+		margin: 0 auto;
 	}
 
 
-	.tag p {
-		/* background-color: tomato; */
+	.tag h3 {
+		background-color: tomato;
 	  display: inline-block;
 	  font-size: 12px;
 	  font-weight: bold;
-	  /* color: blue; */
-		margin-top: -30px;
+		margin-top: -1.2rem;
 	}
 
 	.about-text {
@@ -121,11 +121,13 @@
 	}
 
 	.about-block a {
-		/* background-color: tomato; */
+		background-color: tomato;
 		font-size: 16px;
 		text-align: center;
 		margin-top: 0;
 		height: 48px;
+		margin-left: auto;
+		margin-right: auto;
 	}
 
 
@@ -141,6 +143,8 @@
 	body{
 		background-color: lightblue;
 	}
+
+
 
 	.bg-video {
 		height: 43vh;
@@ -201,82 +205,68 @@
 
 	/* ABOUT SECTION --------------------*/
 
+.about-block {
+	background-color: yellowgreen;
+	margin-top: 60px;
+}
 
-	.about-block {
-	  /* background-color: tomato; */
-	  height: auto;
-	  margin-top: 75px;
-	  margin-bottom: 45px;
-	}
+.about-img {
+	background-color: teal;
 
-	.about-img {
-	  /* background-color: tomato; */
-	  padding: 0 0;
-		width: 450px;
-	}
+}
 
-/* ******************* */
-	.about-block .container {
-		/* background-color: teal; */
-		margin: 0 0 ;
-
-	}
-/* *********************** */
-
-.tag {
-	width: 19.15rem;
-	height: 40px;
-	margin-left: -50px;
-	margin-top: 20px;
-	padding-left: 3rem;
+.about-block img {
+	width: 100%;
+  /* height: 100%; */
+  object-fit: cover;
 }
 
 .about-text {
-	margin-top: -1rem;
+	background-color: pink;
+	margin-top: -65px;
 }
 
-.about-text p {
-	/* background-color: peru; */
+.tag {
+	height: 55px;
+	justify-content: space-between;
+	padding-top: 12px;
+	margin-left: -30px;
+	padding-left: 77px;;
+}
+
+.tag h3 {
+	background-color: green;
 	font-size: 16px;
-	font-weight: 300;
-	line-height: 29px;
-	padding-left: 0.5rem;
-
-}
-
-.tag p {
-	/* background-color: tomato; */
-	display: inline-block;
-	font-size: 12px;
 	font-weight: bold;
-	margin-top: -30px;
-	margin-left: -0.5rem;
 }
 
 .about-text h2 {
-	/* background-color: pink; */
-	font-size: 28px;
+	font-size: 32px;
 	font-weight: 900;
-	color: #444444;
-	margin-top: -50px;
-	padding-left: 0.5rem;
-	margin-top: -16px;
+	margin-top: -20px;
+}
+
+.about-text p {
+	font-size: 16px;
+	line-height: 20px;
 }
 
 .white-line {
-	width: 350px;
-	margin-top: -16px;
-	height: 2px;
+  height: 4px;
+  background-color: #fff;
+  margin-top: 0.4rem;
+	width: 200px;
 }
 
 .about-block a {
-	/* background-color: tomato; */
-	font-size: 16px;
-	text-align: center;
-	margin-top: 0;
-	margin-left: -1.8rem;
+	/* width: 250px; */
 	height: 48px;
+	font-size: 16px;
 }
+
+
+
+
 	/* END ABOUT SECTION */
 }
 

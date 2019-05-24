@@ -202,7 +202,7 @@ html {
 
 /* End Video Banner Section */
 
-/* About Section */
+/* About Section **********************/
 
 .about-block {
   /* background-color: lightblue; */
@@ -211,12 +211,13 @@ html {
   margin-bottom: 90px;
 }
 .about-img {
-  background-color: tomato;
+  /* background-color: tomato; */
   padding: 0 0;
 }
 
 .about-img img {
   width: 100%;
+  /* display: none; */
 }
 
 .tag {
@@ -233,7 +234,12 @@ html {
 .white-line {
     height: 4px;
     background-color: #fff;
-    margin-top: 20px;
+    margin-top: 0.7rem;
+}
+
+.about-text {
+  background-color: pink;
+  padding: 0;
 }
 
 .about-text p {
@@ -244,7 +250,7 @@ html {
   /* background-color: lightblue; */
 }
 
-.tag p {
+.tag h3 {
   display: inline-block;
   font-size: 28px;
   font-weight: bold;
@@ -262,7 +268,13 @@ html {
 .about-text a {
   /* background-color: tomato; */
   margin-top: 15px;
+  margin-left: 60px;
 }
+
+.about-text p {
+  margin-left: 45px;
+}
+
 
 /* End About Section */
 
