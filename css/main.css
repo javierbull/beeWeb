@@ -9,7 +9,7 @@ html {
 }
 
 body {
-  background-color: palegreen;
+  /* background-color: palegreen; */
   margin: 0;
   padding: 0;
   font-size: 1rem;
@@ -336,26 +336,31 @@ body {
 
 
 /* HEXAGON SECTION------------------------------ */
-
-
-
-
-
-.grid {
-  background-color: pink;
-  /* margin-top: 10rem; */
+.success-block {
+  margin-top: 100px;
 }
 
 
+.grid-block {
+  /* background-color: green; */
+  padding: 0;
+}
+
+.grid {
+  /* background-color: pink; */
+  margin-top: 100px;
+}
 
 #hexGrid {
+  /* background-color: salmon; */
   display: flex;
   flex-wrap: wrap;
   width: 90%;
   margin: 0 auto;
   overflow: hidden;
-  font-family: sans-serif;
   list-style-type: none;
+  padding-left: 0;
+  padding-bottom: 500px;
 }
 
 .hex {
@@ -425,7 +430,7 @@ body {
 #demo1 {
   color: #fff;
   text-transform: capitalize;
-    text-align: center;
+  text-align: center;
   bottom: 50%;
   padding-top:50%;
   font-size: 1.5em;
@@ -502,3 +507,15 @@ transition: 0.8s;
 .hexIn:hover .hexLink {
   opacity: 1;
 }
+
+/* END GRID HOVER EFFECTS */
+
+
+
+.center-button {
+  width: 300px;
+  margin: 100px auto;
+}
+
+
+/* END GRID SECTION */

@@ -1,4 +1,155 @@
 
+@media (min-width: 1024px) and (max-width: 1366px ) {
+	body {
+		background-color: orange;
+	}
+
+
+	.video-content {
+		background-color: green;
+		margin-top: 5rem;
+	}
+
+	.about-text {
+		margin-top: 0.5rem;
+	}
+
+}
+
+
+
+
+@media (min-width: 320px) and (max-width: 600px ) {
+	body{
+		/* background-color: red; */
+	}
+
+	.banner-block {
+		background-image: url(../img/bg-header.png);
+		height: auto;
+		background-size: cover;
+		padding-bottom: 50px;
+	}
+
+	.history-block h3 {
+		padding-top: 20px;
+	}
+
+	.team-card {
+		width: 90vw;
+	}
+
+	.team-card img {
+		width: 90vw;
+	}
+
+	.work-block h3 {
+		text-align: center;
+	}
+
+	.work-block a {
+		/* background-color: gold; */
+		display: inline-block;
+		margin-bottom: 20px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.img-work-1, .img-work-2 {
+		width: 100vw;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+
+	.footer-bottom-left, .footer-bottom-right {
+		text-align: center;
+	}
+
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px ) {
+	body{
+		/* background-color: tomato; */
+	}
+
+	.team-card {
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.footer-bottom-left, .footer-bottom-right {
+		text-align: center;
+	}
+
+
+}
+
+/************************************************************/
+
+/*** HEXAGON SIZING AND EVEN ROW INDENTATION *****************************************************************/
+@media (min-width:1201px) { /* <- 5-4  hexagons per row */
+  #hexGrid{
+    padding-bottom: 100px;
+  }
+  .hex {
+    width: 20%; /* = 100 / 5 */
+  }
+  .hex:nth-child(9n+6){ /* first hexagon of even rows */
+    margin-left:10%;  /* = width of .hex / 2  to indent even rows */
+  }
+}
+
+@media (max-width: 1200px) and (min-width:901px) { /* <- 4-3  hexagons per row */
+  #hexGrid{
+    padding-bottom: 5.5%;
+    font-size: 13px;
+  }
+  .hex {
+    width: 25%; /* = 100 / 4 */
+  }
+  .hex:nth-child(7n+5){ /* first hexagon of even rows */
+    margin-left:12.5%;  /* = width of .hex / 2  to indent even rows */
+  }
+}
+
+@media (max-width: 900px) and (min-width:601px) { /* <- 3-2  hexagons per row */
+  #hexGrid{
+    padding-bottom: 7.4%;
+    font-size: 14px;
+  }
+  .hex {
+    width: 33.333%; /* = 100 / 3 */
+  }
+  .hex:nth-child(5n+4){ /* first hexagon of even rows */
+    margin-left:16.666%;  /* = width of .hex / 2  to indent even rows */
+  }
+}
+
+@media (max-width: 600px) { /* <- 2-1  hexagons per row */
+  #hexGrid{
+    padding-bottom: 11.2%;
+    font-size: 12px;
+  }
+  .hex {
+    width: 50%; /* = 100 / 3 */
+  }
+  .hex:nth-child(3n+3){ /* first hexagon of even rows */
+    margin-left:25%;  /* = width of .hex / 2  to indent even rows */
+  }
+}
+
+@media (max-width: 400px) {
+    #hexGrid {
+        font-size: 8px;
+    }
+
+}
+
+
+/* END EXAGON SECTION  */
 
 @media (min-width: 320px) and (max-width: 600px ) {
 
@@ -6,6 +157,8 @@
 
 	body{
 		background-color: salmon;
+		margin: 0;
+		padding: 0;
 	}
 
 	/* VIDEO SECTION */
@@ -26,6 +179,7 @@
 		right: 1rem;
 		bottom: 42px;
 		position: absolute;
+
 	}
 
 	.header-overlay {
@@ -54,7 +208,7 @@
 		/* background-color: tomato; */
 		font-size: 16px;
 		text-align: center;
-		margin-top: 0;
+		margin: 0;
 		margin-left: auto;
 		margin-right: auto;
 		width: 200px;
@@ -205,7 +359,21 @@
 		margin: 0 auto;
 	}
 	/* END KPI SECTION */
+
+	.grid {
+		background-color: lightgreen;
+		margin: 0;
+		padding: 0;
+
+	}
+
+	.center-button {
+	 	margin-top: 50px;
+	}
+
 }
+
+
 
 /* END MOBILE-------------------------------------- */
 
@@ -395,165 +563,15 @@
 	    height: 24px;
 	}
 
-
-
-
-
-
-
-
 	/* END KPI SECTION  */
 
-}
 
-@media (min-width: 1024px) and (max-width: 1366px ) {
-	body {
-		background-color: orange;
+	/* EXAGON GRID SECTION */
+
+	.center-button {
+	 	margin-top: 50px;
 	}
 
-
-	.video-content {
-		background-color: green;
-		margin-top: 5rem;
-	}
-
-	.about-text {
-		margin-top: 0.5rem;
-	}
+	/* END GRID SECTION */
 
 }
-
-
-
-
-@media (min-width: 320px) and (max-width: 600px ) {
-	body{
-		/* background-color: red; */
-	}
-
-	.banner-block {
-		background-image: url(../img/bg-header.png);
-		height: auto;
-		background-size: cover;
-		padding-bottom: 50px;
-	}
-
-	.history-block h3 {
-		padding-top: 20px;
-	}
-
-	.team-card {
-		width: 90vw;
-	}
-
-	.team-card img {
-		width: 90vw;
-	}
-
-	.work-block h3 {
-		text-align: center;
-	}
-
-	.work-block a {
-		/* background-color: gold; */
-		display: inline-block;
-		margin-bottom: 20px;
-		display: flex;
-		justify-content: center;
-		align-items: center;
-	}
-
-	.img-work-1, .img-work-2 {
-		width: 100vw;
-		margin-left: auto;
-		margin-right: auto;
-	}
-
-
-	.footer-bottom-left, .footer-bottom-right {
-		text-align: center;
-	}
-
-}
-
-
-@media (min-width: 768px) and (max-width: 1024px ) {
-	body{
-		/* background-color: tomato; */
-	}
-
-	.team-card {
-		margin-left: auto;
-		margin-right: auto;
-	}
-
-	.footer-bottom-left, .footer-bottom-right {
-		text-align: center;
-	}
-
-
-}
-
-/************************************************************/
-
-/*** HEXAGON SIZING AND EVEN ROW INDENTATION *****************************************************************/
-@media (min-width:1201px) { /* <- 5-4  hexagons per row */
-  #hexGrid{
-    padding-bottom: 4.4%
-  }
-  .hex {
-    width: 20%; /* = 100 / 5 */
-  }
-  .hex:nth-child(9n+6){ /* first hexagon of even rows */
-    margin-left:10%;  /* = width of .hex / 2  to indent even rows */
-  }
-}
-
-@media (max-width: 1200px) and (min-width:901px) { /* <- 4-3  hexagons per row */
-  #hexGrid{
-    padding-bottom: 5.5%;
-    font-size: 13px;
-  }
-  .hex {
-    width: 25%; /* = 100 / 4 */
-  }
-  .hex:nth-child(7n+5){ /* first hexagon of even rows */
-    margin-left:12.5%;  /* = width of .hex / 2  to indent even rows */
-  }
-}
-
-@media (max-width: 900px) and (min-width:601px) { /* <- 3-2  hexagons per row */
-  #hexGrid{
-    padding-bottom: 7.4%;
-    font-size: 14px;
-  }
-  .hex {
-    width: 33.333%; /* = 100 / 3 */
-  }
-  .hex:nth-child(5n+4){ /* first hexagon of even rows */
-    margin-left:16.666%;  /* = width of .hex / 2  to indent even rows */
-  }
-}
-
-@media (max-width: 600px) { /* <- 2-1  hexagons per row */
-  #hexGrid{
-    padding-bottom: 11.2%;
-    font-size: 12px;
-  }
-  .hex {
-    width: 50%; /* = 100 / 3 */
-  }
-  .hex:nth-child(3n+3){ /* first hexagon of even rows */
-    margin-left:25%;  /* = width of .hex / 2  to indent even rows */
-  }
-}
-
-@media (max-width: 400px) {
-    #hexGrid {
-        font-size: 8px;
-    }
-
-}
-
-
-/* END EXAGON SECTION  */
