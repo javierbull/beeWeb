@@ -1,109 +1,71 @@
+
+
 * {
   box-sizing: border-box;
-}
-
-body {
-  margin: 0;
-  font-size: 1rem;
-  line-height: 1.5;
-  color: #333;
-  overflow-x: hidden;
-  font-family: 'Lato', sans-serif;
 }
 
 html {
   scroll-behavior: smooth;
 }
 
-/* COLORS******************* */
-
-.bg-gray {
-  background-color: #F5F5F3;
+body {
+  background-color: palegreen;
+  margin: 0;
+  padding: 0;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #333;
+  /* overflow-x: hidden; */
+  font-family: 'Lato', sans-serif;
 }
 
+
+/* BG-COLORS********************* */
 .bg-yellow {
-  background-color: #FEE45B;
+    background-color: #FEE45B;
+}
+
+.bg-yellowGreen {
+    background-color: yellowgreen;
+}
+
+.bg-whiteSmoke {
+    background-color: whitesmoke;
+}
+
+.bg-salmon {
+    background-color: salmon;
+}
+
+.bg-pink {
+    background-color: pink;
+}
+
+.bg-paleGreen {
+    background-color: palegreen;
+}
+
+.bg-olive {
+    background-color: olive;
 }
 
 .bg-black {
   background-color: #444444;
 }
 
+.bg-gray {
+  background-color: #F5F5F3;
+}
+
 .bg-green {
   background-color: #d2f3e0;
 }
 
-/* END COLORS */
-/* Width Sizes*************** */
+/* END BG COLORS */
 
-.width-200 {
-  width: 200px;
-}
+/* NAVBAR SECTION */
 
-.width-250 {
-  width: 200px;
-}
-
-.width-300 {
-  width: 300px;
-}
-
-.width-450 {
-  width: 450px;
-}
-.width-500 {
-  width: 500px;
-}
-
-.width-600 {
-  width: 600px;
-}
-
-.width-650 {
-  width: 650px;
-}
-
-.width-680 {
-  width: 680px;
-}
-
-.width-700 {
-  width: 700px;
-}
-
-.width-750 {
-  width: 750px;
-}
-
-
-/* End Width Sizes */
-
-/* padding Sizes */
-
-.padding-l-45px {
-    padding-left: 45px;
-}
-
-/* End Padding Sizes */
-
-/* MARGIN SIZE */
-
-.margin-l-45px {
-  margin-left: 45px;
-}
-
-/* END MARGIN SIZE */
-
-/* Navbar section */
-
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 1000;
-}
-
-.menu {
+.navbar {
   background-color: #444444;
 }
 
@@ -111,22 +73,25 @@ html {
   height: 60px;
 }
 
+.activado {
+  color: yellowgreen;
+}
 
+/* END NAVBAR SECTION */
 
-
-/* End Navbar section */
-
-
-/* video banner section */
-
+/* VIDEO SECTION*********************** */
 .bg-video {
   height: 100vh;
   display: flex;
   align-items: center;
 }
 
-.content {
-  text-align: left;
+.header-video video {
+  position: absolute;
+  top: 0;
+  right: 0;
+  min-width: 100%;
+  min-height: 100%;
 }
 
 .header-video {
@@ -138,12 +103,8 @@ html {
   overflow: hidden;
 }
 
-.header-video video {
-  position: absolute;
-  top: 0;
-  right: 0;
-  min-width: 100%;
-  min-height: 100%;
+.content {
+  text-align: left;
 }
 
 .header-overlay {
@@ -157,7 +118,22 @@ html {
   opacity: 0.85;
 }
 
-/* banner content section */
+.header-overlay img {
+
+  width: 100vw;
+  opacity: .15;
+}
+
+
+/* borde oculto------------------------ */
+
+.img-border-hidden {
+  overflow: hidden;
+  height: 100vh;
+  width: 100vw;
+}
+
+/* BANNER CONTENT SECTION************** */
 .video-content {
   z-index: 2;
 }
@@ -197,19 +173,18 @@ html {
   text-decoration: none;
   color: #fff;
 }
+/* END BANNER CONTENT SECTION */
 
-/* End Banner Content Section */
+/* END VIDEO SECTION */
 
-/* End Video Banner Section */
-
-/* About Section **********************/
+/* ABOUT SECTION************** */
 
 .about-block {
-  /* background-color: lightblue; */
+  background-color: lightblue;
   height: auto;
-  margin-top: 135px;
-  margin-bottom: 90px;
+  margin-top: 60px;
 }
+
 .about-img {
   /* background-color: tomato; */
   padding: 0 0;
@@ -232,8 +207,9 @@ html {
 }
 
 .white-line {
-    height: 4px;
     background-color: #fff;
+    width: 250px;
+    height: 4px;
     margin-top: 0.7rem;
 }
 
@@ -243,11 +219,11 @@ html {
 }
 
 .about-text p {
+  background-color: lightyellow;
   font-size: 24px;
   font-weight: 300;
   line-height: 29px;
-
-  /* background-color: lightblue; */
+  margin-left: 45px;
 }
 
 .tag h3 {
@@ -259,27 +235,26 @@ html {
 
 .about-text h2 {
   /* background-color: pink; */
-  font-size: 72px;
+  font-size: 65px;
   font-weight: 900;
   color: #444444;
   margin-top: -50px;
+  margin-left: 45px;
 }
 
 .about-text a {
   /* background-color: tomato; */
   margin-top: 15px;
-  margin-left: 60px;
-}
-
-.about-text p {
   margin-left: 45px;
 }
 
 
-/* End About Section */
+/* END ABOUT SECTION */
 
-/* WHY SECTION*********************** */
-.why-section {
+/* KPI SECTION************************* */
+.kpi-block {
+  height: auto;
+  margin-top: 60px;
   padding: 90px 0;
 }
 
@@ -289,7 +264,7 @@ html {
   display: flex;
   justify-content: space-between;
   padding-top: 30px;
-  padding-left: 150px;
+  padding-left: 50px;
   margin-top: 65px;
   margin: 0 auto;
   position: relative;
@@ -305,7 +280,7 @@ html {
 
 .tittle-text {
   /* background-color: pink; */
-  font-size: 72px;
+  font-size: 65px;
   font-weight: 900;
   color: #444444;
   text-align: center;
@@ -313,6 +288,7 @@ html {
 }
 
 .white-line-central {
+    width: 480px;
     height: 4px;
     background-color: #fff;
     margin-top: 20px;
@@ -321,13 +297,11 @@ html {
 }
 
 .kpi-cards {
+  background-color: paleGreen;
   padding: 0 0;
   margin-top: 8rem;
 }
 
-.tag-card {
-
-}
 
 .kpi-card {
   /* background-color: pink; */
@@ -335,7 +309,7 @@ html {
 }
 
 .kpi-card h4 {
-  font-size: 71px;
+  font-size: 70px;
   font-weight: 900;
   text-align: center;
 }
@@ -354,8 +328,177 @@ html {
   padding: 0 1rem;
 }
 
+.tag-card {
+    height: 45px;
+}
+
+/* END KPI SECTION */
+
+
+/* HEXAGON SECTION------------------------------ */
 
 
 
 
-/* END WHY SECTION */
+
+.grid {
+  background-color: pink;
+  /* margin-top: 10rem; */
+}
+
+
+
+#hexGrid {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  margin: 0 auto;
+  overflow: hidden;
+  font-family: sans-serif;
+  list-style-type: none;
+}
+
+.hex {
+  position: relative;
+  visibility:hidden;
+  outline:1px solid transparent; /* fix for jagged edges in FF on hover transition */
+  transition: all 0.5s;
+  backface-visibility: hidden;
+  will-change: transform;
+  transition: all 0.5s;
+}
+.hex::after{
+  content:'';
+  display:block;
+  padding-bottom: 86.602%;  /* =  100 / tan(60) * 1.5 */
+}
+.hexIn{
+  position: absolute;
+  width:96%;
+  padding-bottom: 110.851%; /* =  width / sin(60) */
+  margin: 2%;
+  overflow: hidden;
+  visibility: hidden;
+  outline:1px solid transparent; /* fix for jagged edges in FF on hover transition */
+  -webkit-transform: rotate3d(0,0,1,-60deg) skewY(30deg);
+      -ms-transform: rotate3d(0,0,1,-60deg) skewY(30deg);
+          transform: rotate3d(0,0,1,-60deg) skewY(30deg);
+    transition: all 0.5s;
+}
+.hexIn * {
+  position: absolute;
+  visibility: visible;
+  outline:1px solid transparent; /* fix for jagged edges in FF on hover transition */
+}
+.hexLink {
+    display:block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: #fff;
+    overflow: hidden;
+    -webkit-transform: skewY(-30deg) rotate3d(0,0,1,60deg);
+        -ms-transform: skewY(-30deg) rotate3d(0,0,1,60deg);
+            transform: skewY(-30deg) rotate3d(0,0,1,60deg);
+}
+
+
+
+
+/*** HEX CONTENT **********************************************************************/
+.hex img {
+  left: -100%;
+  right: -100%;
+  width: auto;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.hex h1, .hex p {
+  width: 100%;
+  padding: 5%;
+  box-sizing:border-box;
+  font-weight: 300;
+  opacity: 0;
+}
+
+#demo1 {
+  color: #fff;
+  text-transform: capitalize;
+    text-align: center;
+  bottom: 50%;
+  padding-top:50%;
+  font-size: 1.5em;
+  z-index: 1;
+}
+.hex h1:before, .hex h1:after {
+  display: inline-block;
+  margin: 0 0.5em;
+  width: 0.25em;
+  height: 0.03em;
+  background: #ffffff;
+  content: '';
+  vertical-align: middle;
+  transition: all 0.3s;
+  text-align:center;
+}
+
+.demo2 {
+top: 50%;
+text-align: center;
+color: #fff;
+font-size: 16px;
+}
+
+
+.img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-position: center center;
+  background-size: cover;
+  overflow: hidden;
+-webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+
+.img:before, .img:after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  content: '';
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+/* .img:before {
+  background: rgba(22, 103, 137, 0.3)
+} */
+.img:after {
+  background: #000;
+}
+
+/***********************/
+
+
+/************************************/
+
+/*** HOVER EFFECT  **********************************************************************/
+
+
+
+.hexLink:hover h1, .hexLink:focus h1,
+.hexLink:hover p, .hexLink:focus p{
+opacity:1;
+transition: 0.8s;
+}
+
+
+.hexIn:hover .img:before,
+.hexIn:hover .img:after,
+.hexIn:hover .hexLink {
+  opacity: 1;
+}
