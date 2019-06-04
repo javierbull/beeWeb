@@ -529,6 +529,14 @@ transition: 0.8s;
 
 .item {
   background-color: #F5F5F3 !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px !important;
+}
+
+.item img {
+
 }
 
 
