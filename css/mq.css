@@ -360,6 +360,16 @@
 	}
 	/* END KPI SECTION */
 
+	.success-block {
+		background-color: orange;
+		margin-top: 50px;
+	}
+
+	.grid-block {
+		background-color: teal;
+		margin-top: 40px;
+	}
+
 	.grid {
 		background-color: lightgreen;
 		margin: 0;
@@ -568,8 +578,13 @@
 
 	/* EXAGON GRID SECTION */
 
+	.grid-block {
+		background-color: lightblue;
+		margin-top: -50px;
+	}
+
 	.center-button {
-	 	margin-top: 50px;
+	 	margin-top: 60px;
 	}
 
 	/* END GRID SECTION */

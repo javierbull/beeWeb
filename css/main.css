@@ -153,7 +153,7 @@ body {
 }
 
 .button {
-	background-color: #444444;
+	background-color: #444444 !important;
   /* border: 2px solid #444444; */
 	padding: 0.95rem 2.5rem;
 	color: #ffffff;
@@ -169,7 +169,7 @@ body {
 
 .button:hover {
   /* background-color: #ffffff; */
-  background-color: #1492E6;
+  background-color: tomato !important;
   text-decoration: none;
   color: #fff;
 }
@@ -457,6 +457,7 @@ font-size: 16px;
 
 
 .img {
+
   position: absolute;
   top: 0;
   right: 0;
@@ -465,8 +466,8 @@ font-size: 16px;
   background-position: center center;
   background-size: cover;
   overflow: hidden;
--webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
 }
 
 .img:before, .img:after {
@@ -519,3 +520,17 @@ transition: 0.8s;
 
 
 /* END GRID SECTION */
+
+/* CAROUSEL BRANDS SECTION****************** */
+
+.carousel-brands {
+  padding-top: 100px;
+}
+
+.item {
+  background-color: #F5F5F3 !important;
+}
+
+
+
+/* END CAROUSEL BRANDS */
