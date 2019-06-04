@@ -307,6 +307,9 @@
 
 	.kpi-block {
 		background-color: green;
+		margin-top: 50px;
+		padding-top: 50px;
+		padding-bottom: 50px;
 	}
 
 	.central-tag {
@@ -347,7 +350,12 @@
 		padding-top: 60px;
 	}
 
+	.kpi-card {
+		background-color: lightgreen;
+	}
+
 	.kpi-card h4 {
+		background-color: salmon;
 	  font-size: 42px;
 	  font-weight: 900;
 	  text-align: center;
@@ -360,11 +368,18 @@
 	  margin-top: -1.5rem;
 	}
 
+	.kpi-card p {
+		background-color: lightyellow;
+		font-size: 16px;
+		margin-top: -20px;
+	}
+
 	.tag-card {
 		background-color: yellowgreen;
 		width: 240px;
 		height: 32px;
 		margin: 0 auto;
+		margin-top: -40px;
 	}
 	/* END KPI SECTION */
 
@@ -373,8 +388,8 @@
 	.success-block {
 		background-color: orange;
 		width: 90vw;
-		margin-top: 50px;
 		margin: 0 auto;
+		margin-top: 50px;
 	}
 
 	.grid-block {
