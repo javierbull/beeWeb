@@ -218,14 +218,14 @@
 		margin: 0;
 		margin-left: auto;
 		margin-right: auto;
-		width: 200px;
-		height: 48px;
 	}
 
 	.button {
 		display: flex;
 		justify-content: center;
 		align-items: center;
+		width: 260px;
+		height: 48px;
 	}
 
 	/* END VIDEO SECTION */
@@ -294,10 +294,8 @@
 		font-size: 16px;
 		text-align: center;
 		margin-top: 40px;
-		height: 48px;
 		margin-left: auto;
 		margin-right: auto;
-		width: 260px;
 	}
 
 
@@ -313,17 +311,24 @@
 	}
 
 	.central-tag {
-		width: 100%;
+		/* background-color: lightblue; */
 		height: 40px;
-		margin: 0 15px;
+		display: flex;
+	  justify-content: space-between;
+	  align-items: center;
+		padding: 0;
+		padding-left: 48px;
 	}
 
-	.central-tag p {
+	.central-tag h3 {
 	  font-size: 12px;
-		/* color: blue; */
 		font-weight: 900;
-		margin-top: -25px;
 	}
+
+	.white-line-central {
+		width: 200px;
+	}
+
 
 	.tittle-text {
 	  /* background-color: pink; */
@@ -334,14 +339,6 @@
 	  margin-top: -0.8rem;
 	}
 
-	.white-line-central {
-	    width: 200px;
-	    height: 4px;
-	    background-color: #fff;
-	    margin-top: -18px;
-	    position: absolute;
-	    right: 0;
-	}
 
 	.kpi-cards {
 		background-color: pink;
@@ -386,8 +383,9 @@
 	/* GRID SECTION************* */
 
 	.success-block {
-		background-color: orange;
-		width: 90vw;
+		/* background-color: orange; */
+		width: 98vw;
+		padding: 0;
 		margin: 0 auto;
 		margin-top: 50px;
 	}
@@ -405,7 +403,13 @@
 	}
 
 	.center-button {
+		background-color: tomato;
 	 	margin-top: 50px;
+	}
+
+	.center-button a {
+		margin-left: auto;
+		margin-right: auto;
 	}
 
 	/* END GRID SECTION */
@@ -428,9 +432,7 @@
 
 
 /* END MOBILE-------------------------------------- */
-
-
-/*---------------------------------------------------- */
+/*----------------------------------------------- */
 
 
 @media (min-width: 768px) and (max-width: 1024px ) {
@@ -525,7 +527,6 @@
 		height: 55px;
 		justify-content: space-between;
 		padding-top: 12px;
-		margin-left: -30px;
 		padding-left: 77px;;
 	}
 

@@ -200,17 +200,17 @@ body {
   height: 110px;
   display: flex;
   justify-content: space-between;
-  padding-top: 30px;
+  align-items: center;
   padding-left: 150px;
   margin-left: -100px;
   margin-top: 65px;
+  padding-top: -20px;
 }
 
 .white-line {
     background-color: #fff;
     width: 250px;
     height: 4px;
-    margin-top: 0.7rem;
 }
 
 .about-text {
@@ -231,6 +231,13 @@ body {
   font-size: 28px;
   font-weight: bold;
   color: #fff;
+  margin: 0;
+}
+
+.white-line {
+    background-color: #fff;
+    width: 250px;
+    height: 4px;
 }
 
 .about-text h2 {
@@ -263,19 +270,26 @@ body {
   height: 110px;
   display: flex;
   justify-content: space-between;
-  padding-top: 30px;
-  padding-left: 50px;
-  margin-top: 65px;
-  margin: 0 auto;
-  position: relative;
+  align-items: center;
+  padding: 0;
+  padding-left: 150px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.central-tag p {
+
+.central-tag h3 {
   display: inline-block;
   font-size: 28px;
   font-weight: bold;
   color: #fff;
-  padding-right: 1rem;
+  margin: 0;
+}
+
+.white-line-central {
+    background-color: #fff;
+    width: 450px;
+    height: 4px;
 }
 
 .tittle-text {
@@ -287,14 +301,7 @@ body {
   margin-top: -2.2rem;
 }
 
-.white-line-central {
-    width: 480px;
-    height: 4px;
-    background-color: #fff;
-    margin-top: 20px;
-    position: absolute;
-    right: 0;
-}
+
 
 .kpi-cards {
   background-color: paleGreen;
@@ -322,10 +329,11 @@ body {
 }
 
 .kpi-card p {
+  background-color: lightyellow;
   font-size: 24px;
   font-weight: 300;
   text-align: center;
-  padding: 0 1rem;
+  margin-top: -1rem;
 }
 
 .tag-card {
