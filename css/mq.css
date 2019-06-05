@@ -163,7 +163,9 @@
 
 	/* NAVBAR************************** */
 
-
+	.navbar-toggler {
+		margin: 0;
+	}
 
 
 	/* END NAVBAR */
@@ -440,6 +442,11 @@
 	body{
 		background-color: orchid;
 	}
+
+	.navbar-toggler {
+		margin: 0;
+	}
+
 
 	/* VIDEO SECTION ****************** */
 	.bg-video {
