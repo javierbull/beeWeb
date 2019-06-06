@@ -483,12 +483,13 @@
 	  line-height: 19px;
 	  display: block;
 		padding-bottom: 1rem;
+		margin: 0;
 	}
 
 	.video-content {
 		background-color: green;
 		position: absolute;
-		top: 120px;
+		margin-top: 2rem;
 	}
 
 	.video-content a {
@@ -519,28 +520,28 @@
 
 	}
 
-	.about-block img {
-		width: 100%;
-	  /* height: 100%; */
-	  object-fit: cover;
-	}
-
 	.about-text {
 		background-color: pink;
-		margin-top: -65px;
+		padding: 0;
+		padding-top: 1rem;
 	}
 
 	.tag {
-		height: 55px;
-		justify-content: space-between;
-		padding-top: 12px;
-		padding-left: 77px;;
+	  background-color: #FEE45B;
+	  height: 55px;
+	  display: flex;
+	  justify-content: space-between;
+	  align-items: center;
+	  padding-left: 100px;
+		margin: 0;
+	  margin-left: -50px;
 	}
 
 	.tag h3 {
 		background-color: green;
 		font-size: 16px;
 		font-weight: bold;
+
 	}
 
 	.about-text h2 {
@@ -548,11 +549,13 @@
 		font-size: 32px;
 		font-weight: 900;
 		margin-top: -1rem;
+
 	}
 
 	.about-text p {
 		font-size: 16px;
 		line-height: 20px;
+
 	}
 
 	.white-line {
@@ -563,9 +566,12 @@
 	}
 
 	.about-block a {
-		/* width: 250px; */
+		margin: 0;
+		margin-left: 45px;
+		width: 260px;
 		height: 48px;
 		font-size: 16px;
+
 	}
 
 	/* END ABOUT SECTION */
@@ -577,23 +583,25 @@
 	  padding: 40px 0;
 	}
 
-
 	.central-tag {
+		/* background-color: lightblue; */
 		height: 55px;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding: 0;
+		padding-left: 48px;
 	}
 
-	.central-tag p {
-		color: #fff;
-		font-size: 16px;
-		font-weight: bold;
-		margin-top: -25px;
+	.central-tag h3 {
+		font-size: 12px;
+		font-weight: 900;
 	}
 
 	.white-line-central {
-	    background-color: #fff;
-			margin-top: -13px;
-			width: 220px;
+		width: 200px;
 	}
+
 
 	.tittle-text {
 		/* background-color: salmon; */
@@ -629,18 +637,32 @@
 	/* END KPI SECTION  */
 
 
+	/* SUCCESS BLOCK*********************** */
+	.success-block {
+		background-color: yellowGreen;
+		margin: 0;
+		margin-top: 60px;
+	}
+
 	/* EXAGON GRID SECTION */
 
 	.grid-block {
 		background-color: pink;
-		margin-top: -50px;
-
 	}
 
-	.center-button {
-	 	margin-top: 60px;
-	}
 
 	/* END GRID SECTION */
 
+
+	/* CAROUSEL SECTION ******************* */
+
+	.carousel-brands {
+		background-color: yellowGreen;
+		margin: 0;
+		margin-top: -30px;
+		padding: 0;
+		padding-top: 50px;
+	}
+
+	/* END CAROUSEL SECTION */
 }

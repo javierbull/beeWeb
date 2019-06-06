@@ -186,13 +186,20 @@ body {
 }
 
 .about-img {
-  /* background-color: tomato; */
+  background-color: tomato;
   padding: 0 0;
 }
 
-.about-img img {
+.about-img img{
   width: 100%;
-  /* display: none; */
+  height: auto;
+}
+@supports(object-fit: cover){
+    .about-img img{
+      height: 100%;
+      object-fit: cover;
+      object-position: center center;
+    }
 }
 
 .tag {
@@ -544,7 +551,79 @@ transition: 0.8s;
 }
 
 
-
-
-
 /* END CAROUSEL BRANDS */
+
+/* SERVICE SECTION********************** */
+
+.service-block {
+  background-color: lightgreen;
+  margin-top: 100px;
+}
+
+.service-cards {
+  background-color: lightblue;
+  padding: 0 0;
+  margin-top: 8rem;
+}
+
+
+.service-card {
+  background-color: pink;
+  padding: 0;
+  padding-top: 20px;
+  border: solid 1px #707070;
+  box-shadow: 0 2px 20px #bcbab8;
+  transition: all 0.5s ease-in-out;
+}
+
+.service-card img {
+  height: 48px;
+}
+
+
+.service-img-tittle {
+    background-color: salmon;
+    height:80px;
+    display: flex;
+    align-items: center;
+    padding: 0 20px 0 20px ;
+}
+
+.service-card h4 {
+  font-size:  24px;
+  font-weight: 900;
+  margin: 0;
+  padding-left: 1rem;
+}
+
+.service-card-text p {
+  background-color: lightgreen;
+  margin: 0;
+}
+
+.service-card-text {
+  background-color: lightyellow;
+  padding: 20px 20px 20px 20px;
+}
+
+.service-card-bottom {
+  padding: 10px 20px;
+  transition: all 0.5s ease-in-out;
+}
+
+.service-card-bottom a {
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+  transition: all 0.5s ease-in-out;
+}
+
+.service-card:hover {
+  transform: scale(1.1);
+}
+
+.service-card:hover .service-card-bottom{
+  background-color: black;
+}
+
+/* END  SERVICE SECTION */
