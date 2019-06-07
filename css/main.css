@@ -157,7 +157,6 @@ body {
   /* border: 2px solid #444444; */
 	padding: 0.95rem 2.5rem;
 	color: #ffffff;
-  margin-top: 2rem;
 	font-size: 16px;
   font-weight: bold;
   transition: all 0.3s ease-in-out;
@@ -530,7 +529,8 @@ transition: 0.8s;
 
 .center-button {
   width: 300px;
-  margin: 100px auto;
+  margin: 50px auto;
+  text-align: center;
 }
 
 
@@ -562,18 +562,20 @@ transition: 0.8s;
 
 .service-cards {
   background-color: lightblue;
-  padding: 0 0;
-  margin-top: 8rem;
+  padding: 0;
+  margin: 0;
+  margin-top: 5rem;
 }
 
 
 .service-card {
   background-color: pink;
   padding: 0;
-  padding-top: 20px;
+  margin-bottom: 45px;
   border: solid 1px #707070;
   box-shadow: 0 2px 20px #bcbab8;
   transition: all 0.5s ease-in-out;
+
 }
 
 .service-card img {
@@ -624,6 +626,11 @@ transition: 0.8s;
 
 .service-card:hover .service-card-bottom{
   background-color: black;
+}
+
+.service-block .center-button {
+  background-color: salmon;
+  margin-top: 0;
 }
 
 /* END  SERVICE SECTION */

@@ -427,8 +427,24 @@
 		width: 98vw;
 	}
 
-
 	/* END CAROUSEL SECTION */
+
+	/* CARDS SECTION******************* */
+
+	.service-block {
+		background-color: teal;
+		margin: 0;
+		margin-top: 50px;
+	}
+
+	.service-cards {
+		background-color: orange;
+		margin-top: 50px;
+		display: flex;
+		flex-direction: column;
+	}
+
+	/* END CARDS SECTION */
 
 }
 
@@ -437,8 +453,10 @@
 /*----------------------------------------------- */
 
 
+
+/* TABLET******************************************* */
 @media (min-width: 768px) and (max-width: 1024px ) {
-	/* TABLET*************************** */
+
 	body{
 		background-color: orchid;
 	}
@@ -665,4 +683,22 @@
 	}
 
 	/* END CAROUSEL SECTION */
+
+	/* SERVICE SECTION*********************** */
+
+	.center-button {
+	  width: 300px;
+	  text-align: center;
+	}
+
+	.service-block .center-button {
+	  background-color: salmon;
+	  margin-top: -20PX;
+	}
+
+	.center-button a {
+		width: 200px;
+		margin: 0 auto;
+	}
+	/* END SERVICE SECTION */
 }
