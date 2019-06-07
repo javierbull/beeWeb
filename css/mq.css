@@ -446,6 +446,17 @@
 
 	/* END CARDS SECTION */
 
+	/* FOOTER********************  */
+
+	.footer-nav {
+	  background-color: lightBlue;
+	  display: flex;
+	  flex-direction: column;
+	}
+
+
+	/* END FOOTER */
+
 }
 
 
@@ -666,6 +677,7 @@
 
 	.grid-block {
 		background-color: pink;
+		width: 98vw;
 	}
 
 
@@ -676,8 +688,11 @@
 
 	.carousel-brands {
 		background-color: yellowGreen;
+		width: 96vw;
 		margin: 0;
 		margin-top: -30px;
+		margin-left: auto;
+		margin-right: auto;
 		padding: 0;
 		padding-top: 50px;
 	}
@@ -701,4 +716,26 @@
 		margin: 0 auto;
 	}
 	/* END SERVICE SECTION */
+
+	/* FOOTER TABLET********************* */
+
+	footer {
+		background-color: salmon;
+		margin: 0;
+	}
+
+	.footer-nav {
+	  background-color: lightblue;
+	  display: flex;
+	  justify-content: space-between;
+	  align-items: center;
+	}
+
+	.footer-nav .nav-link {
+		color: tomato;
+		font-size: 16px;
+
+	}
+
+	/* END FOOTER TABLET */
 }
