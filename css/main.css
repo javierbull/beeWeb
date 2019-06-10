@@ -908,4 +908,106 @@ footer img {
 
 /* END VALUES BLOCK */
 
+/* TEAM BLOCK*************************************** */
+
+.team-block {
+  background-color: lightgreen;
+  margin-top: 100px;
+
+}
+
+.team-content {
+  background-color: lightblue;
+  height: auto;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 300px);
+  grid-gap: 1rem;
+  margin-top: 2rem;
+}
+
+.team-item {
+  background-color: salmon;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid 1px #ebebe3;
+}
+
+.team-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.overlay-team {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  /* background-color: black; */
+  background-color: white;
+}
+
+.team-item:hover .overlay-team {
+  opacity: 0.8;
+}
+
+.overlay-team span {
+  /* color: white; */
+  color: black;
+  font-size: 20px;
+  font-weight: lighter;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.overlay-team h3 {
+  /* color: white; */
+  color: black;
+  font-size: 30px;
+  font-weight: 900;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.overlay-team h4 {
+  /* color: white; */
+  color: black;
+  font-size: 20px;
+  /* font-weight: lighter; */
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+
+/* END TEAM BLOCK */
+
+footer {
+  margin: 0;
+}
+
 /* END NOSOTROS PAGE */
