@@ -448,11 +448,23 @@
 
 	/* FOOTER********************  */
 
+	footer {
+		background-color: lightgreen;
+		margin-top: 0;
+	}
+
+	footer img {
+		height: 80px;
+		width: auto;
+	}
+
 	.footer-nav {
 	  background-color: lightBlue;
 	  display: flex;
 	  flex-direction: column;
 	}
+
+
 
 
 	/* END FOOTER */
@@ -461,6 +473,12 @@
 
 
 /* END MOBILE-------------------------------------- */
+/* *
+*
+*
+*
+* */
+
 /*----------------------------------------------- */
 
 
@@ -722,6 +740,11 @@
 	footer {
 		background-color: salmon;
 		margin: 0;
+	}
+
+	footer img {
+		width: auto;
+		height: 100px;
 	}
 
 	.footer-nav {
