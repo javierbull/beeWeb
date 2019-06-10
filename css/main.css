@@ -25,6 +25,11 @@ body {
     background-color: #FEE45B;
 }
 
+.bg-yellow2 {
+    background-color: #FCD469;
+}
+
+
 .bg-yellowGreen {
     background-color: yellowgreen;
 }
@@ -33,8 +38,8 @@ body {
     background-color: whitesmoke;
 }
 
-.bg-salmon {
-    background-color: salmon;
+.bg-red {
+    background-color: #FF6964;
 }
 
 .bg-pink {
@@ -53,12 +58,16 @@ body {
   background-color: #444444;
 }
 
+.bg-blue {
+  background-color: #1492E6;
+}
+
 .bg-gray {
   background-color: #F5F5F3;
 }
 
 .bg-green {
-  background-color: #d2f3e0;
+  background-color: #71D1B0;
 }
 
 /* END BG COLORS */
@@ -177,7 +186,6 @@ body {
 /* END VIDEO SECTION */
 
 /* ABOUT SECTION************** */
-
 .about-block {
   background-color: lightblue;
   height: auto;
@@ -193,6 +201,7 @@ body {
   width: 100%;
   height: auto;
 }
+
 @supports(object-fit: cover){
     .about-img img{
       height: 100%;
@@ -833,5 +842,70 @@ footer img {
 
 
 /* END CONTENT BANNER */
+
+/* VALUES BLOCK******************************* */
+
+.values-block {
+  background-color: lightgreen;
+  margin-top: 100px;
+}
+
+.values-text  {
+  background-color: lightyellow;
+  text-align: center;
+  margin: 0;
+  margin-top: -1rem;
+}
+
+.content-values {
+ background-color: lightblue;
+  display: grid;
+  grid-template-columns: repeat(2, 400px);
+  grid-template-rows: repeat(2, 400px);
+  grid-gap: 1rem;
+  width: 820px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3rem;
+}
+
+.values-item {
+  /* background-color: salmon; */
+  padding: 2.5rem;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+}
+
+.values-item:hover {
+  background-color: black;
+}
+
+.values-item:hover h3 {
+  color: #FEE45B;
+}
+
+.values-item span {
+  /* background-color: lightyellow; */
+  color: white;
+  font-size: 50px;
+  font-weight: lighter;
+}
+
+.values-item h3 {
+  /* background-color: lightyellow; */
+  color: white;
+  font-size: 72px;
+  font-weight: 900;
+  margin: 0;
+}
+
+.values-item p {
+  /* background-color: lightyellow; */
+  color: white;
+  font-size: 24px;
+}
+
+
+/* END VALUES BLOCK */
 
 /* END NOSOTROS PAGE */
