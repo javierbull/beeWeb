@@ -604,38 +604,52 @@
 	}
 
 	.values-item span {
-	  background-color: lightGreen;
+	  /* background-color: lightGreen; */
 		font-size: 32px;
 		font-weight: lighter;
 	}
 
 	.values-item h3 {
-	  background-color: lightBlue;
+	  /* background-color: lightBlue; */
 		font-size: 55px;
 		font-weight: 900;
 
 	}
 
 	.values-item p {
-	  background-color: teal;
-		font-size: 24px;
+	  /* background-color: teal; */
+		font-size: 20px;
 		font-weight: normal;
+		text-align: center;
 		margin-top: 1rem;
 	}
-
-
-
-
-
-
 
 	/* end values section */
 
 	/* team-section */
 
 	.team-block {
-		display: none;
+		/* display: none; */
+		background-color: blue;
 	}
+
+	.team-block a {
+		margin-top: -1rem;
+	}
+
+	.team-block P {
+		background-color: pink;
+		font-size: 16px;
+		text-align: left;
+	}
+
+	.team-content {
+		/* display: none; */
+		background-color: lightyellow;
+		grid-template-columns: repeat(1, 90vw);
+	  grid-template-rows: repeat(8, 90vw);
+	}
+
 
 	/* end team section */
 
