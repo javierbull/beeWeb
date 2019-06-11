@@ -598,6 +598,34 @@
 	  margin-top: 3rem;
 	}
 
+	.values-item {
+	  /* background-color: lightBlue; */
+	  padding: 2rem;
+	}
+
+	.values-item span {
+	  background-color: lightGreen;
+		font-size: 32px;
+		font-weight: lighter;
+	}
+
+	.values-item h3 {
+	  background-color: lightBlue;
+		font-size: 55px;
+		font-weight: 900;
+
+	}
+
+	.values-item p {
+	  background-color: teal;
+		font-size: 24px;
+		font-weight: normal;
+		margin-top: 1rem;
+	}
+
+
+
+
 
 
 
