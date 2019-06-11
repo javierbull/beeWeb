@@ -650,6 +650,38 @@
 	  grid-template-rows: repeat(8, 90vw);
 	}
 
+	.mobile-text {
+		background-color: pink;
+		width: auto;
+		height: 100px;
+	}
+
+	.mobile-text span {
+		background-color: lightblue;
+		display: block;
+		text-align: center;
+		margin: 0 auto;
+	}
+
+	.mobile-text h3 {
+		background-color: lightgreen;
+		display: block;
+		text-align: center;
+
+
+	}
+
+	.mobile-text h4 {
+		background-color: salmon;
+		display: block;
+		text-align: center;
+	}
+
+	.team-item:hover .overlay-team {
+	  opacity: 1;
+	}
+
+
 
 	/* end team section */
 
@@ -953,4 +985,16 @@
 	}
 
 	/* END FOOTER TABLET */
+
+	/* nosotros page************************ */
+
+	.values-block {
+		display: none;
+	}
+
+	/* end nosotros page */
+
+	/* team block******************************** */
+
+	/* end team block */
 }
