@@ -151,6 +151,18 @@
 
 /* END EXAGON SECTION  */
 
+
+/*
+*
+*
+*
+*
+*
+*
+*
+*
+*/
+
 @media (min-width: 320px) and (max-width: 600px ) {
 
 	/* MOBILE*********************** */
@@ -245,10 +257,19 @@
 
 	.tag {
 		height: 40px;
-		width: 280px;
-		padding-left: 1rem;
+		width: 100%;
+		padding-left: 48px;
 		margin: 0 auto;
 		margin-top: -20px;
+		display: flex;
+	  justify-content: space-between;
+	  align-items: center;
+	}
+
+	.white-line {
+			/* background-color: green; */
+			width: 200px;
+			height: 4px !important;
 	}
 
 	.about-text p {
@@ -265,9 +286,10 @@
 		background-color: tomato;
 		display: inline-block;
 		font-size: 12px;
-		font-weight: bold;
-		margin-top: -1.2rem;
+		font-weight: 900;
 	}
+
+
 
 	.about-text {
 		background-color: pink;
@@ -287,7 +309,6 @@
 
 	.white-line {
 		width: 180px;
-		margin-top: -16px;
 		height: 2px;
 	}
 
@@ -464,7 +485,118 @@
 	  flex-direction: column;
 	}
 
+	/* NOSOTROS PAGE********************* */
 
+	.banner-img {
+	  background-color: lightblue;
+	  height: 50vh;
+	  display: flex;
+	  align-items: center;
+	}
+
+	.header-img {
+	  background-color: lightgreen;
+	  position: absolute;
+	  top: 0;
+	  left: 0;
+	  width: 100%;
+	  height: 50vh;
+	  overflow: hidden;
+
+	}
+
+	.left-tag {
+	  /* background-color: #FEE45B; */
+		height: 40px;
+		width: 100%;
+		padding-left: 48px;
+		margin: 0;
+		margin-left: 16px;
+		margin-right: 16px;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.white-line-left {
+	    background-color: #fff;
+	    width: 150px;
+	    height: 4px !important;
+	}
+
+
+	.left-tag h3 {
+	  display: inline-block;
+	  font-size: 12px;
+	  font-weight: 900;
+	  color: #fff;
+	  margin: 0;
+	  padding-right: 1rem;
+	}
+
+	.tittle-text-left {
+	  /* background-color: lightgreen; */
+	  font-size: 32px;
+	  font-weight: 900;
+	  color: #444444;
+	  margin: 0;
+		margin-left: 16px;
+		text-align: center;
+	  padding: 0;
+		width: 100%;
+		margin-top: -.7rem;
+	}
+
+	.banner-content-left p {
+	  background-color: lightyellow;
+	  color: black;
+		width: 100%;
+		padding: 0;
+	  margin-top: 2rem;
+		margin-left: 16px;
+		font-size: 16px;
+		font-weight: lighter;
+	}
+
+	.banner-content-left {
+		margin-top: 17rem;
+	}
+
+	/* end banner */
+
+	/* values section */
+
+	.values-block {
+	  background-color: teal;
+	  margin-top: 12rem;
+	}
+
+	.values-block p {
+		font-size: 16px;
+		font-weight: lighter;
+		text-align: left;
+		margin-top: -rem;
+	}
+
+
+
+	.content-values {
+			display: none;
+	}
+
+
+	/* end values section */
+
+	/* team-section */
+
+	.team-block {
+		display: none;
+	}
+
+	/* end team section */
+
+
+	/* END NOSOTROS PAGE */
 
 
 	/* END FOOTER */
@@ -579,9 +711,9 @@
 	  display: flex;
 	  justify-content: space-between;
 	  align-items: center;
-	  padding-left: 100px;
+	  padding-left: 48px;
 		margin: 0;
-	  margin-left: -50px;
+
 	}
 
 	.tag h3 {
@@ -611,6 +743,8 @@
 	  margin-top: 0.4rem;
 		width: 200px;
 	}
+
+
 
 	.about-block a {
 		margin: 0;

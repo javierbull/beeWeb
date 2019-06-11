@@ -648,7 +648,7 @@ transition: 0.8s;
 
 footer {
   /* background-color: teal; */
-  margin-top: 100px;
+  margin-top: 0;
 }
 
 footer h2 {
@@ -755,14 +755,13 @@ footer img {
 
 /* NOSOTROS PAGE******************************* */
 
-/* VIDEO SECTION*********************** */
+/* BANNER SECTION*********************** */
 
 .banner-img {
   background-color: lightblue;
   height: 70vh;
   display: flex;
   align-items: center;
-
 }
 
 .header-img {
@@ -813,7 +812,6 @@ footer img {
     background-color: #fff;
     width: 250px;
     height: 4px;
-
 }
 
 .tittle-text-left {
@@ -827,7 +825,6 @@ footer img {
   position: absolute;
   left: 0;
   padding-left: 150px;
-
 }
 
 .banner-content-left p {
@@ -1006,8 +1003,6 @@ footer img {
 
 /* END TEAM BLOCK */
 
-footer {
-  margin: 0;
-}
+
 
 /* END NOSOTROS PAGE */
