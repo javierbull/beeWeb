@@ -505,14 +505,20 @@
 
 	}
 
+	.banner-content-left {
+		background-color: purple;
+		margin-top: 18rem;
+		width: 92vw;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
 	.left-tag {
 	  /* background-color: #FEE45B; */
 		height: 40px;
 		width: 100%;
 		padding-left: 48px;
 		margin: 0;
-		margin-left: 16px;
-		margin-right: 16px;
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
@@ -540,11 +546,11 @@
 	  font-weight: 900;
 	  color: #444444;
 	  margin: 0;
-		margin-left: 16px;
+		/* margin-left: 16px; */
 		text-align: center;
 	  padding: 0;
 		width: 100%;
-		margin-top: -.7rem;
+		margin-top: -.9rem;
 	}
 
 	.banner-content-left p {
@@ -553,14 +559,12 @@
 		width: 100%;
 		padding: 0;
 	  margin-top: 2rem;
-		margin-left: 16px;
+		/* margin-left: 16px; */
 		font-size: 16px;
 		font-weight: lighter;
 	}
 
-	.banner-content-left {
-		margin-top: 17rem;
-	}
+
 
 	/* end banner */
 
@@ -575,7 +579,7 @@
 		font-size: 16px;
 		font-weight: lighter;
 		text-align: left;
-		margin-top: -rem;
+		margin-top: -1rem;
 	}
 
 
