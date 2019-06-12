@@ -502,8 +502,8 @@
 	  width: 100%;
 	  height: 50vh;
 	  overflow: hidden;
-
 	}
+
 
 	.banner-content-left {
 		background-color: purple;
@@ -986,15 +986,54 @@
 
 	/* END FOOTER TABLET */
 
-	/* nosotros page************************ */
+	/* NOSOTROS PAGE************************ */
 
+	/* banner section */
+
+	.banner-img {
+		display: none;
+	}
+
+	.banner-img2 {
+		/* display: none; */
+		display: block;
+		background-image: url("../img/nosotros2.png");
+		width: 100%;
+		height: 50vh;
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position:  center 50px;
+	}
+
+	.content-banner2 {
+	  display: none;
+		display: block;
+		margin-top: -1rem;
+	}
+
+
+	/* content-banner	*/
+
+
+
+	/* end content banner */
+
+	/* end banner section */
+
+	/* values section */
 	.values-block {
 		display: none;
 	}
 
-	/* end nosotros page */
+	/* end values section */
+
 
 	/* team block******************************** */
 
+	.team-block {
+		display: none;
+	}
 	/* end team block */
+
+	/* END NOSOTROS PAGE */
 }
