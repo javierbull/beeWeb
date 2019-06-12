@@ -613,7 +613,6 @@
 	  /* background-color: lightBlue; */
 		font-size: 55px;
 		font-weight: 900;
-
 	}
 
 	.values-item p {
@@ -656,29 +655,26 @@
 		height: 100px;
 	}
 
-	.mobile-text span {
-		background-color: lightblue;
-		display: block;
-		text-align: center;
-		margin: 0 auto;
+	.overlay-team {
+		background-color: black;
+	  opacity: .6;
 	}
 
-	.mobile-text h3 {
-		background-color: lightgreen;
-		display: block;
-		text-align: center;
-
-
+	.overlay-team span {
+		display: none;
 	}
 
-	.mobile-text h4 {
-		background-color: salmon;
-		display: block;
-		text-align: center;
+	.overlay-team h3 {
+		color: white;
+		font-size: 24px;
+		margin: 0;
+		margin-top: 7rem;
 	}
 
-	.team-item:hover .overlay-team {
-	  opacity: 1;
+	.overlay-team h4 {
+		color: white;
+		font-size: 16px;
+		margin-top: 5rem;
 	}
 
 
@@ -1006,24 +1002,71 @@
 	}
 
 	.content-banner2 {
-	  display: none;
+	  /* display: none; */
+		background-color: teal;
 		display: block;
 		margin-top: -1rem;
 	}
 
-
-	/* content-banner	*/
-
-
-
-	/* end content banner */
+	.content-banner2 p {
+		background-color: lightyellow;
+		text-align: center;
+	}
 
 	/* end banner section */
 
 	/* values section */
 	.values-block {
-		display: none;
+		/* display: none; */
+		background-color: teal;
+		margin: 0;
+		padding: 0;
+		margin-top: 3rem;
 	}
+
+	.content-values {
+		/* display: none; */
+		background-color: purple;
+		display: grid;
+		grid-template-columns: repeat(2,1fr);
+		grid-template-rows: repeat(2, 45vw);
+		grid-gap: 1rem;
+		width: 90vw;
+		margin: 0;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 3rem;
+	}
+
+	.values-item {
+		/* background-color: lightBlue; */
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.values-item span {
+		/* background-color: lightGreen; */
+		font-size: 30px;
+		font-weight: lighter;
+	}
+
+	.values-item h3 {
+		/* background-color: lightBlue; */
+		font-size: 55px;
+		font-weight: 900;
+	}
+
+	.values-item p {
+		/* background-color: teal; */
+		font-size: 20px;
+		font-weight: normal;
+		text-align: center;
+		margin-top: 1rem;
+	}
+
+
 
 	/* end values section */
 
@@ -1031,8 +1074,22 @@
 	/* team block******************************** */
 
 	.team-block {
-		display: none;
+		/* display: none; */
+		background-color:lightgreen;
 	}
+
+	.team-content {
+	  background-color: pink;
+	  height: auto;
+	  margin: 0 auto;
+	  display: grid;
+	  grid-template-columns: repeat(2, 335px);
+	  grid-template-rows: repeat(4, 335px);
+	  grid-gap: 1rem;
+	  margin-top: 2rem;
+	}
+
+
 	/* end team block */
 
 	/* END NOSOTROS PAGE */
