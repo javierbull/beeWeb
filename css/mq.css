@@ -649,15 +649,11 @@
 	  grid-template-rows: repeat(8, 90vw);
 	}
 
-	.mobile-text {
-		background-color: pink;
-		width: auto;
-		height: 100px;
-	}
 
 	.overlay-team {
-		background-color: black;
-	  opacity: .6;
+		background-color: transparent;
+		background-image: linear-gradient(transparent, black);
+	  opacity: .9;
 	}
 
 	.overlay-team span {
@@ -676,8 +672,6 @@
 		font-size: 16px;
 		margin-top: 5rem;
 	}
-
-
 
 	/* end team section */
 
@@ -1089,7 +1083,28 @@
 	  margin-top: 2rem;
 	}
 
+	.overlay-team {
+		background-color: transparent;
+		background-image: linear-gradient(transparent, black);
+		opacity: .9;
+	}
 
+	.overlay-team span {
+		display: none;
+	}
+
+	.overlay-team h3 {
+		color: white;
+		font-size: 24px;
+		margin: 0;
+		margin-top: 7rem;
+	}
+
+	.overlay-team h4 {
+		color: white;
+		font-size: 16px;
+		margin-top: 5rem;
+	}
 	/* end team block */
 
 	/* END NOSOTROS PAGE */
