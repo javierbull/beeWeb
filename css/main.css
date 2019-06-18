@@ -1037,4 +1037,24 @@ footer img {
   margin-top: -3rem;
 }
 
+/* NAVBAR SECTION */
+
+.navbar2 {
+  background-color: lightblue;
+  padding: 2rem 0 .5rem 0;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.navbar2 a {
+  color: black;
+}
+
+.active2 {
+  color: red!important;
+}
+
+/* END NAVBAR SECTION */
+
 /* END CASOS DE ÉXITO */
