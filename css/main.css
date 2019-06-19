@@ -1053,7 +1053,7 @@ footer img {
 /* NAVBAR SECTION */
 
 .navbar2 {
-  background-color: lightblue;
+  /* background-color: lightblue; */
   padding: 1rem 0 .5rem 0;
   display: flex;
   justify-content: space-between;
@@ -1061,7 +1061,6 @@ footer img {
 }
 
 .navbar2 button {
-  
   color: black;
   display: block;
   border: solid 1px black;
@@ -1081,9 +1080,6 @@ footer img {
   text-decoration: none;
 }
 
-/* ---------------------------------------------------------------- *
-
-
 
 /* END NAVBAR SECTION */
 
@@ -1091,6 +1087,7 @@ footer img {
 
 .portfolio-block {
   background-color: lightGreen;
+  padding: 0;
 }
 
 .portfolio-content {
@@ -1100,12 +1097,60 @@ footer img {
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(4, 450px);
+  grid-template-rows: repeat(4, auto);
   grid-gap: 1rem;
   margin-top: 2rem;
 }
 
+.portfolio-card-body {
+  /* background-color: lightGreen; */
 
+}
+
+.portfolio-item {
+  /* background-color: pink; */
+  border: solid 1px black;
+  transition: all 0.3s ease-in-out;
+}
+
+.portfolio-item h5 {
+  /* background-color: peru; */
+  margin: 0;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  padding-left: 1rem;
+}
+
+.portfolio-item h6 {
+  /* background-color: lightyellow; */
+  margin: 0;
+  margin-bottom: 15px;
+  font-size: 18px;
+  font-weight: lighter;
+  padding-left: 1rem;
+}
+
+.portfolio-link {
+  font-size: 20px;
+  font-weight: lighter;
+  padding-left: 1rem;
+}
+
+.portfolio-card-text {
+  font-size: 18px;
+  font-weight: lighter;
+  padding-left: 1rem;
+}
+
+.portfolio-item:hover {
+  transform: scale(1.05);
+}
+
+.portfolio-item:hover .service-card-bottom2{
+  background-color: black;
+  color: white;
+  text-decoration: none;
+}
 
 /* PRUEBA GRID FILTER */
 
