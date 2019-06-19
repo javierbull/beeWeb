@@ -1060,7 +1060,8 @@ footer img {
 
 }
 
-.navbar2 a {
+.navbar2 button {
+  
   color: black;
   display: block;
   border: solid 1px black;
@@ -1079,6 +1080,9 @@ footer img {
   background-color: black;
   text-decoration: none;
 }
+
+/* ---------------------------------------------------------------- *
+
 
 
 /* END NAVBAR SECTION */
