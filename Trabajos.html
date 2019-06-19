@@ -90,14 +90,23 @@
         <div class="row">
 
           <!-- Grid column -->
-          <div class="navbar2 col-sm-12 col-md-12 col-lg-12">
+          <div class="navbar2 col-sm-12 col-md-12 col-lg-12 btn-group" role="group" aria-label="Basic example" data-toggle="buttons-radio" id="tab">
 
-            <button type="button" class="btn btn-outline-dark filter active2" data-rel="all">Todo</button>
-            <button type="button" class="btn btn-outline-dark filter" data-rel="1">Productos Corporativos</button>
-            <button type="button" class="btn btn-outline-dark filter" data-rel="2">Activaciones</button>
-            <button type="button" class="btn btn-outline-dark filter" data-rel="3">Cumpleaños</button>
+            <button type="button" class="btn btn-outline-dark filter" data-rel="all" data-toggle="tab">Todo</button>
+            <button type="button" class="btn btn-outline-dark filter" data-rel="1"  data-toggle="tab">Productos Corporativos</button>
+            <button type="button" class="btn btn-outline-dark filter" data-rel="2"  data-toggle="tab">Activaciones</button>
+            <button type="button" class="btn btn-outline-dark filter" data-rel="3" data-toggle="tab">Cumpleaños</button>
 
           </div>
+
+          <div id="tab" class="btn-group" data-toggle="buttons-radio">
+              <a href="#prices2" class="btn btn-large btn-info active" data-toggle="tab">Prices</a>
+              <a href="#features2" class="btn btn-large btn-info" data-toggle="tab">Features</a>
+              <a href="#requests2" class="btn btn-large btn-info" data-toggle="tab">Requests</a>
+              <a href="#contact2" class="btn btn-large btn-info"  data-toggle="tab">Contact</a>
+          </div>
+
+
         </div>
 
         <div class="line">
