@@ -1186,12 +1186,16 @@
 	}
 
 	.values-text {
-		font-size: 20px;
+		font-size: 18px;
 		margin-bottom: 1rem;
 	}
 
 	.menu-tab {
 		margin: 0;
+	}
+
+	.menu-tab a {
+		font-size: 18px;
 	}
 
 	.portfolio-content {
@@ -1205,6 +1209,24 @@
 	  grid-template-rows: repeat(auto, auto);
 	  grid-gap: 1rem;
 	}
+
+	.portfolio-card-body h5 {
+		font-size: 20px;
+	}
+
+	.portfolio-card-body h6 {
+		font-size: 18px;
+	}
+
+	.portfolio-card-body a {
+		font-size: 18px;
+	}
+
+	.portfolio-card-body p {
+		font-size: 16px;
+	}
+
+
 
 	/* END TRABAJOS PAGE */
 }
