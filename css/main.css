@@ -1060,30 +1060,21 @@ footer img {
 
 }
 
-.navbar2 button {
-  color: black;
-  display: block;
-  border: solid 1px black;
-  padding: .3rem 1rem;
-  transition: 0.3s ease-in-out;
-}
-
-.active2 {
-  color: white!important;
-  background-color: #FEE45B;
-  border: solid 1px #FEE45B!important;
-}
-
-.navbar2 a:hover {
-  color: white;
-  background-color: black;
-  text-decoration: none;
-}
-/* END NAVBAR SECTION */
-
 /* NAVBAR TAB*************************** */
 
+.menu-tab {
+  margin-top: 1rem;
+}
 
+.nav-tabs {
+  background-color: #F5F5F3;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-tabs .nav-item {
+  color: black;
+}
 
 /* END NAVBAR END */
 
@@ -1103,7 +1094,7 @@ footer img {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(4, auto);
   grid-gap: 1rem;
-  margin-top: 2rem;
+  /* margin-top: 2rem; */
 }
 
 .portfolio-card-body {
@@ -1116,7 +1107,7 @@ footer img {
   border: solid 1px black;
   transition: all 0.3s ease-in-out;
   position: relative;
-  padding-bottom: 2rem;
+  padding-bottom: 2.5rem;
 }
 
 .portfolio-card-bottom {
