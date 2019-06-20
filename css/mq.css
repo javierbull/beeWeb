@@ -465,6 +465,10 @@
 		flex-direction: column;
 	}
 
+	.service-card-bottom2 {
+			font-size: 18px;
+	}
+
 	/* END CARDS SECTION */
 
 	/* FOOTER********************  */
@@ -678,6 +682,53 @@
 
 	/* END NOSOTROS PAGE */
 
+/* TRABAJOS PAGE********************* */
+
+.title-section {
+  /* background-color: lightGreen; */
+  margin-top: -20px;
+}
+
+.portfolio-content {
+  background-color: pink;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(auto, auto);
+  grid-gap: 1rem;
+}
+
+.values-text {
+	font-size: 16px;
+}
+
+.nav-item {
+	font-size: 16px;
+}
+
+.portfolio-item h5{
+	font-size: 24px;
+}
+
+.portfolio-item h6{
+	font-size: 18px;
+}
+
+.portfolio-item a{
+	font-size: 18px;
+}
+
+.portfolio-item p{
+	font-size: 16px;
+}
+
+
+
+
+
+/* END TRAAJOS PAGE */
 
 	/* END FOOTER */
 
@@ -1108,4 +1159,10 @@
 	/* end team block */
 
 	/* END NOSOTROS PAGE */
+
+	/* TRABAJOS PAGE************************** */
+
+
+
+	/* END TRABAJOS PAGE */
 }

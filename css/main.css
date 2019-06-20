@@ -55,7 +55,7 @@ body {
 }
 
 .bg-black {
-  background-color: #444444;
+  background-color: #333;
 }
 
 .bg-blue {
@@ -75,7 +75,7 @@ body {
 /* NAVBAR SECTION */
 
 .navbar {
-  background-color: #444444;
+  background-color: #333;
 }
 
 .navbar-brand img {
@@ -162,12 +162,13 @@ body {
 }
 
 .button {
-	background-color: #444444 !important;
+	background-color: #333 !important;
   /* border: 2px solid #444444; */
 	padding: 0.95rem 2.5rem;
 	color: #ffffff;
 	font-size: 16px;
   font-weight: bold;
+  border: solid 1px #333;
   transition: all 0.3s ease-in-out;
 }
 
@@ -177,9 +178,10 @@ body {
 
 .button:hover {
   /* background-color: #ffffff; */
-  background-color: tomato !important;
+  background-color: white !important;
   text-decoration: none;
-  color: #fff;
+  color: #333;
+  border: solid 1px #333;
 }
 /* END BANNER CONTENT SECTION */
 
@@ -259,7 +261,7 @@ body {
   /* background-color: pink; */
   font-size: 65px;
   font-weight: 900;
-  color: #444444;
+  color: #333;
   margin-top: -50px;
   margin-left: 45px;
 }
@@ -311,7 +313,7 @@ body {
   /* background-color: pink; */
   font-size: 65px;
   font-weight: 900;
-  color: #444444;
+  color: #333;
   text-align: center;
   margin-top: -2.2rem;
 }
@@ -642,7 +644,7 @@ transition: 0.8s;
 }
 
 .service-card:hover .service-card-bottom2{
-  background-color: black;
+  background-color: #333;
   color: white;
   text-decoration: none;
 }
@@ -725,7 +727,7 @@ footer .line {
 .footer-nav .nav-link {
   display: inline-block;
   background-color: lightyellow;
-  color: black;
+  color: #333;
   width: 200px;
   text-align: center;
   transition: all 0.1s ease-in-out;
@@ -847,7 +849,7 @@ footer img {
   /* background-color: salmon; */
   font-size: 65px;
   font-weight: 900;
-  color: #444444;
+  color: #333;
   margin: 0;
   padding: 0;
   margin-top: -2.2rem;
@@ -858,7 +860,7 @@ footer img {
 
 .banner-content-left p {
   background-color: pink;
-  color: black;
+  color: #333;
   position: absolute;
   left: 0;
   padding-left: 150px;
@@ -908,7 +910,7 @@ footer img {
 }
 
 .values-item:hover {
-  background-color: black;
+  background-color: #333;
 }
 
 .values-item:hover h3 {
@@ -993,7 +995,7 @@ footer img {
 
 .overlay-team span {
   /* color: white; */
-  color: black;
+  color: #333;
   font-size: 20px;
   font-weight: lighter;
   position: absolute;
@@ -1007,7 +1009,7 @@ footer img {
 
 .overlay-team h3 {
   /* color: white; */
-  color: black;
+  color: #333;
   font-size: 30px;
   font-weight: 900;
   position: absolute;
@@ -1021,7 +1023,7 @@ footer img {
 
 .overlay-team h4 {
   /* color: white; */
-  color: black;
+  color: #333;
   font-size: 20px;
   /* font-weight: lighter; */
   position: absolute;
@@ -1073,20 +1075,15 @@ footer img {
 }
 
 .nav-tabs .nav-item {
-  color: black;
+  color: #333;
 }
 
 /* END NAVBAR END */
 
 /* PORTFOLIO BLOCK********** */
 
-.portfolio-block {
-  background-color: lightGreen;
-  padding: 0;
-}
-
 .portfolio-content {
-  background-color: lightblue;
+  background-color: lightGreen;
   width: 100%;
   height: auto;
   margin: 0 auto;
@@ -1104,7 +1101,7 @@ footer img {
 
 .portfolio-item {
   /* background-color: pink; */
-  border: solid 1px black;
+  border: solid 1px #333;
   transition: all 0.3s ease-in-out;
   position: relative;
   padding-bottom: 2.5rem;
@@ -1128,7 +1125,7 @@ footer img {
 }
 
 .portfolio-item:hover .portfolio-card-bottom {
-  background-color: black;
+  background-color: #333;
   color: white;
   text-decoration: none;
 }
@@ -1167,7 +1164,7 @@ footer img {
 }
 
 .portfolio-item:hover .service-card-bottom2{
-  background-color: black;
+  background-color: #333;
   color: white;
   text-decoration: none;
 }
