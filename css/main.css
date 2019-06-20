@@ -1079,10 +1079,13 @@ footer img {
   background-color: black;
   text-decoration: none;
 }
-
-
-
 /* END NAVBAR SECTION */
+
+/* NAVBAR TAB*************************** */
+
+
+
+/* END NAVBAR END */
 
 /* PORTFOLIO BLOCK********** */
 
@@ -1112,6 +1115,31 @@ footer img {
   /* background-color: pink; */
   border: solid 1px black;
   transition: all 0.3s ease-in-out;
+  position: relative;
+  padding-bottom: 2rem;
+}
+
+.portfolio-card-bottom {
+  padding: 10px 20px;
+  transition: all 0.5s ease-in-out;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.portfolio-card-bottom i {
+  /* color: black; */
+  margin-left: .5rem;
+  font-size: 20px;
+}
+
+.portfolio-item:hover .portfolio-card-bottom {
+  background-color: black;
+  color: white;
+  text-decoration: none;
 }
 
 .portfolio-item h5 {
