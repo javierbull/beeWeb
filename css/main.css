@@ -1091,7 +1091,6 @@ footer img {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(4, auto);
   grid-gap: 1rem;
-  /* margin-top: 2rem; */
 }
 
 .portfolio-card-body {
