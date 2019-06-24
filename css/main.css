@@ -1169,7 +1169,8 @@ footer img {
 /* TRABAJOS DETALLE************************* */
 
 .banner-img-detalle {
-  background-color: #012C61;
+  /* background-color: #012C61; */
+  background-image: linear-gradient(to  top,#012C61 20%,#026CED);
   width: 100%;
   height: 50vh;
   display: flex;
@@ -1178,7 +1179,7 @@ footer img {
 }
 
 .banner-img-detalle-content {
-  background-color: lightblue;
+  /* background-color: lightblue; */
   width: 100%;
   height: 250px;;
   display: flex;
@@ -1196,12 +1197,84 @@ footer img {
 }
 
 .banner-left {
-  background-color: lightGreen;
+  /* background-color: lightGreen; */
+}
 
+.banner-left {
+  width: 30vw;
 }
 
 .banner-right {
-  background-color: lightyellow;
+  /* background-color: salmon; */
+  color: white;
 }
+
+.banner-right ul {
+  text-decoration: none;
+  list-style:none;
+  font-size: 30px;
+  font-weight: lighter;
+}
+
+.banner-right ul li:nth-child(1) {
+  font-weight: bold;
+}
+
+/* ENTRADAS  Y COMBOS SECTION****** */
+
+.section-text-right, .section-text-left {
+  display: flex;
+  margin-bottom: 100px;
+}
+
+.product-block h2 {
+  font-size: 55px;
+  margin-top: -2rem;
+}
+
+
+.tagRight {
+  background-color: #FEE45B;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 150px;
+  margin-left: -80px;
+  margin-top: 65px;
+  padding-top: -20px;
+}
+
+.tagLeft {
+  background-color: #FEE45B;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 150px;
+  margin-right: -80px;
+  margin-top: 65px;
+  padding-top: -20px;
+
+}
+
+.text-left {
+  background-color: teal;
+  z-index: 20;
+}
+
+.text-left p {
+  padding-right: 16px;
+}
+
+
+
+
+
+
+
+
+/* END ENTRADAS Y COMBOS */
+
 
 /* END TRABAJOS DETALLE */
