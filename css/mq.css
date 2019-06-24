@@ -763,7 +763,57 @@
 		font-size: 12px;
 	}
 
+
+ .section-text-right {
+	 display: flex;
+	 flex-direction: column;
+ }
+
+ .section-text-left {
+	 display: inline-block;
+
+ }
+
+ .tagRight {
+	 background-color: #FEE45B;
+	 height: 40px;
+	 display: flex;
+	 justify-content: space-between;
+	 align-items: center;
+	 padding: 0;
+	 margin: 0;
+ }
+
+ .tagLeft {
+	background-color: #FEE45B;
+	height: 40px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0;
+	margin: 0;
+ }
+
+ .section-text-right, .section-text-left {
+   margin-bottom: 40px;
+ }
+
+ .section-text-left {
+	 display: flex;
+	 flex-direction: column;
+ }
+
+ .product-block h2 {
+
+   margin-top: -1rem;
+	 margin-bottom: 0;
+ }
 	/* END TRABAJOS-DETALLE */
+
+.product-block .center-button{
+	background-color: lightGreen;
+	margin-top: : -2rem;
+}
 
 }
 
@@ -868,6 +918,8 @@
 		padding: 0;
 		padding-top: 1rem;
 	}
+
+
 
 	.tag {
 	  background-color: #FEE45B;
@@ -1258,8 +1310,31 @@
 	.portfolio-card-body p {
 		font-size: 16px;
 	}
-
-
-
 	/* END TRABAJOS PAGE */
+
+	/* TRABAJOS DETALLE************************** */
+	.banner-img-detalle {
+	  /* background-color: #012C61; */
+	  width: 100%;
+	  height: 40vh;
+	}
+
+	.banner-left {
+	  width: 40vw;
+	}
+
+	.banner-right ul {
+	  font-size: 20px;
+	  font-weight: lighter;
+	}
+
+	.back-link {
+	  margin:5rem 0 1rem 0;
+	}
+
+	.tagRight, .tagLeft {
+
+	}
+
+	/* END TRABAJOS DETALLE/ */
 }
