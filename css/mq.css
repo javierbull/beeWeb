@@ -815,6 +815,29 @@
 	margin-top: : -2rem;
 }
 
+
+
+/* SERVICE SECTION************************* */
+
+.banner-service {
+
+}
+
+.header-img {
+	display: none;
+}
+
+.header-img2 {
+	margin-top: 4rem;
+}
+
+.service-block {
+	display: none;
+}
+
+/* END SERVICE SECTION */
+
+
 }
 
 
