@@ -960,15 +960,12 @@
 		width: 200px;
 	}
 
-
-
 	.about-block a {
 		margin: 0;
 		margin-left: 45px;
 		width: 260px;
 		height: 48px;
 		font-size: 16px;
-
 	}
 
 	/* END ABOUT SECTION */
@@ -1374,4 +1371,39 @@
 	}
 
 	/* END TRABAJOS DETALLE/ */
+}
+
+
+@media (min-width: 1024px) and (max-width: 1366px ){
+
+body {
+	background-color: lightblue;
+}
+
+.banner-service {
+	height: 40vh;
+}
+
+.header-img img{
+	width: 1366px;
+	height: auto;
+}
+
+.banner-content-left {
+  margin-top: -5rem;
+}
+
+.left-tag {
+	height: 100px;
+}
+
+.header-img {
+  background-color: lightyellow;
+  object-fit: cover;
+  width: 100%;
+  height: 40vh;
+
+}
+
+
 }
