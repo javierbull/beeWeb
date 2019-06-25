@@ -777,7 +777,7 @@ footer img {
 }
 
 .header-img {
-  background-color: lightgreen;
+  background-color: teal;
   position: absolute;
   top: 0;
   left: 0;
@@ -1270,11 +1270,84 @@ footer img {
 }
 
 
-
-
-
-
 /* END ENTRADAS Y COMBOS */
 
+.service-banner {
+
+}
+
+.service-banner img {
+  display: block;
+  height: auto;
+  width: auto;
+
+}
+
+.header-img2 {
+  background-color: teal;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 70vh;
+  overflow: hidden;
+  margin: 0 auto;
+
+}
+
+.title-section2{
+  /* background-color: lightGreen; */
+  margin-top: 0;
+}
 
 /* END TRABAJOS DETALLE */
+
+/* SERVICIOS PAGE ************************************ */
+
+.banner-content-left {
+  margin-top: -3rem;
+}
+
+.header-img {
+  margin-top: 3rem;
+}
+
+.service-block {
+  margin-bottom: 15rem;
+}
+
+.service-block-text {
+  height: 440px;
+  background-color: pink;
+  margin: 0 auto;
+  border: solid 1px #707070;
+}
+
+.service-block-text {
+  padding: 100px 80px 80px 80px;
+}
+
+.service-block .central-tag {
+  height: 60px;
+}
+
+.tag-block {
+  margin-top: -23.5rem;
+}
+
+.service-block-content {
+  margin-top: -10rem;
+}
+
+.service-block-list {
+  background-color: lightGreen;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.service-block .center-button {
+  margin-top: 2rem;
+}
+
+/* END SERVICIOS PAGE */
