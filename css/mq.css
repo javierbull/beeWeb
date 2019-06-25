@@ -1319,13 +1319,14 @@
 	  height: 40vh;
 	}
 
-	.banner-left {
-	  width: 40vw;
-	}
 
 	.banner-right ul {
 	  font-size: 20px;
 	  font-weight: lighter;
+	}
+
+	.banner-left {
+		width: 40vw;
 	}
 
 	.back-link {
@@ -1333,7 +1334,43 @@
 	}
 
 	.tagRight, .tagLeft {
+		height: 55px;
+		margin-top: 0;
+	}
 
+	.product-block .about-text {
+		background-color: teal;
+		padding-top: 0;
+	}
+
+	.product-block h2 {
+	  margin-top: -2rem;
+		margin-bottom: 1rem;
+	}
+
+	.product-block img {
+		height: auto;
+	}
+
+	.product-block .center-button {
+		margin-top: -1rem;
+	}
+
+	.tagRight {
+	  padding-left: 50px;
+	  margin-left: -50px;
+	  padding-top: -20px;
+
+	}
+
+	.tagLeft {
+	  padding-right: 50px;
+	  margin-right: -50px;
+	  padding-top: -20px;
+	}
+
+	.text-right h2, p {
+		margin-right: 45px;
 	}
 
 	/* END TRABAJOS DETALLE/ */

@@ -1189,15 +1189,13 @@ footer img {
 
 .back-link {
   margin:2rem 0 1rem 0;
+  font-size: 16px;
 }
 
 .back-link a {
   color: white;
   text-decoration: none;
-}
 
-.banner-left {
-  /* background-color: lightGreen; */
 }
 
 .banner-left {
