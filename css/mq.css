@@ -813,8 +813,6 @@
 	margin-top: : -2rem;
 }
 
-
-
 /* SERVICE SECTION************************* */
 
 .banner-service {
@@ -843,16 +841,16 @@
 	padding: 0 1rem;
 }
 
-.service-block {
-  margin-top: 13rem;
-	margin-bottom: 21rem;
+.service-block-page {
+	margin-top: 14rem;
+	margin-bottom: 22rem;
 }
 
-.service-block .central-tag {
+.service-block-page .central-tag {
   height: 40px;
 }
 
-.service-block .tittle-text {
+.service-block-page .tittle-text {
   /* color: green; */
 	margin-top: -1rem;
 }
@@ -1139,9 +1137,13 @@
 	  text-align: center;
 	}
 
+	.service-block .central-tag {
+		height: 55px;
+	}
+
 	.service-block .center-button {
 	  background-color: salmon;
-	  margin-top: -20PX;
+	  /* margin-top: -20PX; */
 	}
 
 	.center-button a {
@@ -1490,12 +1492,10 @@
 	}
 
 
-	.service-block {
-		display: none;
-	}
+
 
 	footer {
-		display: none;
+		/* display: none; */
 	}
 
 	/* END SERVICIOS PAGE */
@@ -1503,7 +1503,7 @@
 
 
 @media (min-width: 1024px) and (max-width: 1366px ){
-
+/* IPAD PRO */
 body {
 	background-color: lightblue;
 }

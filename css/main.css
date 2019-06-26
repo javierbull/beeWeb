@@ -1320,9 +1320,12 @@ footer img {
   margin-top: 3rem;
 }
 
-.service-block {
-  margin-bottom: 15rem;
+.service-block-page {
+  background-color: pink;
+  margin-top: 7rem;
+  margin-bottom: 18rem;
 }
+
 
 .service-block-text {
   height: 440px;
@@ -1332,7 +1335,7 @@ footer img {
   padding: 100px 80px 80px 80px;
 }
 
-.service-block .central-tag {
+.service-block-page .central-tag {
   height: 60px;
 }
 
@@ -1351,7 +1354,7 @@ footer img {
   margin: 0 auto;
 }
 
-.service-block .center-button {
+.service-block-page .center-button {
   margin-top: 2rem;
 }
 
