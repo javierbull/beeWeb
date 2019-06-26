@@ -873,11 +873,6 @@
 }
 
 
-
-
-
-
-
 /* END SERVICE SECTION */
 
 
@@ -1491,11 +1486,61 @@
 		margin-top: -.9rem;
 	}
 
+	/* SERVICE-BLOCK-PAGE************************ */
+
+	.service-block-page {
+		background-color: salmon;
+		margin-top: 12rem;
+		margin-bottom: 22rem;
+	}
+
+	.service-block-text {
+		background-color: lightblue;
+		margin-top: 6rem;
+		padding-bottom: 3rem;
+	}
+
+	.service-block-text p {
+
+		background-color: lightyellow;
+		width: 100%;
+	}
+
+	.service-block-page .central-tag {
+		background-color: pink;
+		height: 55px;
+		width: 50%;
+	}
+
+	.service-block-page h2 {
+		display: block;
+		text-align: center;
+		margin: 0 auto;
+		margin-top: -1rem;
+	}
+
+	.service-block-page .center-button {
+		background-color: blue;
+		margin-top: 0;
+	}
+
+	.service-block-page .center-button a {
+		background-color: gold;
+		width: 260px;
+	}
+	/* END SERVICE BLOCK PAGE */
+
 
 
 
 	footer {
 		/* display: none; */
+	}
+
+	footer .copyright p {
+		background-color: lightyellow;
+		margin: 0;
+		margin-bottom: 3rem;
 	}
 
 	/* END SERVICIOS PAGE */
