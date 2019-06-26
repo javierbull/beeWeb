@@ -1311,6 +1311,11 @@ footer img {
   margin-top: -3rem;
 }
 
+.banner-content-left p {
+  background-color: teal;
+  width: 30vw;
+}
+
 .header-img {
   margin-top: 3rem;
 }
@@ -1321,7 +1326,7 @@ footer img {
 
 .service-block-text {
   height: 440px;
-  background-color: pink;
+  background-color: lightGreen;
   margin: 0 auto;
   border: solid 1px #707070;
   padding: 100px 80px 80px 80px;

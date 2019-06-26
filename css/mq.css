@@ -837,6 +837,10 @@
 
 .banner-content-left p {
 	font-size: 16px;
+	background-color: lightblue;
+	width: 100%;
+	text-align: center;
+	padding: 0 1rem;
 }
 
 .service-block {
@@ -1466,16 +1470,16 @@
 
 	.banner-content-left p {
 		background-color: lightblue;
-		padding: 0 2rem;
-		margin: 2rem auto;
+		width: 100%;
 		text-align: center;
+		padding: 0;
 	}
 
 	.banner-service .tittle-text-left {
 
 	  font-size: 32px;
 	  font-weight: 900;
-	  color: #444444;
+	  color: #333;
 	  margin: 0;
 		text-align: center;
 	  padding: 0;
@@ -1501,22 +1505,21 @@
 body {
 	background-color: lightblue;
 }
-
+/*
 .banner-service {
 	height: 40vh;
 }
 
-.header-img img{
-	width: 1366px;
+.header-img2 {
+	display: block;
+	width: 100%;
+	margin: 0;
+	padding: 0;
 	height: auto;
 }
 
-.banner-content-left {
-  margin-top: -5rem;
-}
-
-.left-tag {
-	height: 100px;
+.header-img2 img {
+	width: 100%;
 }
 
 .header-img {
@@ -1526,6 +1529,13 @@ body {
   height: 40vh;
 
 }
+
+.banner-content-left {
+	background-color: pink;
+} */
+
+
+/* END SERVICE PAGE */
 
 
 }
