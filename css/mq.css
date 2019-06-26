@@ -1472,7 +1472,9 @@
 		background-color: lightblue;
 		width: 100%;
 		text-align: center;
-		padding: 0;
+		padding: 0 2rem;
+		margin-left: 0;
+
 	}
 
 	.banner-service .tittle-text-left {
@@ -1505,9 +1507,18 @@
 body {
 	background-color: lightblue;
 }
-/*
+
 .banner-service {
-	height: 40vh;
+	height: 68vh;
+}
+
+.header-img {
+	display: none;
+}
+
+.header-img img {
+	display: none;
+	width: 100%;
 }
 
 .header-img2 {
@@ -1519,22 +1530,15 @@ body {
 }
 
 .header-img2 img {
+	/* display: none; */
 	width: 100%;
-}
-
-.header-img {
-  background-color: lightyellow;
-  object-fit: cover;
-  width: 100%;
-  height: 40vh;
-
 }
 
 .banner-content-left {
 	background-color: pink;
-} */
-
-
+	width: auto;
+	height: auto;
+}
 /* END SERVICE PAGE */
 
 
