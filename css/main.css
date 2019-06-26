@@ -769,6 +769,10 @@ footer img {
 
 /* BANNER SECTION*********************** */
 
+.header-img2 {
+  display: none;
+}
+
 .banner-img {
   background-color: lightblue;
   height: 70vh;
@@ -1320,9 +1324,6 @@ footer img {
   background-color: pink;
   margin: 0 auto;
   border: solid 1px #707070;
-}
-
-.service-block-text {
   padding: 100px 80px 80px 80px;
 }
 

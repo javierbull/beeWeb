@@ -820,20 +820,69 @@
 /* SERVICE SECTION************************* */
 
 .banner-service {
-
+	/* background-color: peru; */
 }
 
 .header-img {
 	display: none;
+
 }
 
 .header-img2 {
+	display: block;
 	margin-top: 4rem;
 }
 
-.service-block {
-	display: none;
+footer {
+	
 }
+
+
+
+.banner-content-left {
+  margin-top: 21.5rem;
+}
+
+.banner-content-left p {
+	font-size: 16px;
+}
+
+.service-block {
+  margin-top: 13rem;
+	margin-bottom: 21rem;
+}
+
+.service-block .central-tag {
+  height: 40px;
+}
+
+.service-block .tittle-text {
+  /* color: green; */
+	margin-top: -1rem;
+}
+
+.service-block-text {
+  height: 440px;
+  background-color: lightblue;
+  margin: 0 auto;
+  border: solid 1px #707070;
+  padding: 50px 20px 20px 20px;
+}
+
+.service-block-text p{
+	background-color: lightyellow;
+	font-size: 16px;
+}
+
+.service-block-content {
+  margin-top: 0;
+}
+
+
+
+
+
+
 
 /* END SERVICE SECTION */
 
