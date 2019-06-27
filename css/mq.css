@@ -299,7 +299,7 @@
 		/* background-color: lightblue; */
 		font-size: 28px;
 		font-weight: 900;
-		color: #444444;
+		color: #333;
 		margin-top: -50px;
 		text-align: center;
 		margin-top: -16px;
@@ -357,7 +357,7 @@
 	  /* background-color: pink; */
 	  font-size: 28px;
 	  font-weight: 900;
-	  color: #444444;
+	  color: #333;
 	  text-align: center;
 	  margin-top: -0.8rem;
 	}
@@ -453,7 +453,7 @@
 	/* CARDS SECTION******************* */
 
 	.service-block {
-		background-color: teal;
+		background-color: gold;
 		margin: 0;
 		margin-top: 50px;
 	}
@@ -548,7 +548,7 @@
 	  background-color: lightgreen;
 	  font-size: 32px;
 	  font-weight: 900;
-	  color: #444444;
+	  color: #333;
 	  margin: 0;
 		/* margin-left: 16px; */
 		text-align: center;
@@ -1553,37 +1553,30 @@ body {
 	background-color: lightblue;
 }
 
-.banner-service {
-	height: 68vh;
+header .navbar {
+	background-color: salmon;
+	width: 100%;
 }
 
-.header-img {
+.banner-service .header-img {
 	display: none;
 }
 
-.header-img img {
-	display: none;
+.banner-service .header-img2{
+	background-color: peru;
+	width: 100vw;
+}
+
+.banner-service .header-img2 img{
+	/* object-fit: cover; */
 	width: 100%;
 }
 
-.header-img2 {
-	display: block;
-	width: 100%;
-	margin: 0;
-	padding: 0;
-	height: auto;
-}
 
-.header-img2 img {
-	/* display: none; */
-	width: 100%;
-}
 
-.banner-content-left {
-	background-color: pink;
-	width: auto;
-	height: auto;
-}
+
+
+
 /* END SERVICE PAGE */
 
 
