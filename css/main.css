@@ -799,19 +799,6 @@ footer img {
   display: none;
 }
 
-/**********************************/
-
-/* .parallax {
-  background-image: url(../img/nosotros.jpg);
-  min-height: 600px;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-} */
-
-/*********************************/
-
 .banner-content-left {
   background-color: lightblue;
 }
@@ -949,7 +936,6 @@ footer img {
 .team-content {
   background-color: lightblue;
   height: auto;
-  margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(4, 280px);
   grid-template-rows: repeat(2, 280px);

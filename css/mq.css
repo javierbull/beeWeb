@@ -537,8 +537,8 @@
 	}
 
 	.tittle-text-left {
-	  background-color: lightgreen;
-	  font-size: 32px;
+	  background-color: pink;
+	  font-size: 28px;
 	  font-weight: 900;
 	  color: #333;
 	  margin: 0;
@@ -563,7 +563,7 @@
 	/* values section */
 
 	.values-block {
-	  background-color: teal;
+	  background-color: lightyellow;
 		margin: 0;
 		padding: 0;
 	  margin-top: 12rem;
@@ -1201,10 +1201,10 @@
 	/* values section */
 	.values-block {
 		/* display: none; */
-		background-color: teal;
+		background-color: peru;
 		margin: 0;
 		padding: 0;
-		margin-top: 3rem;
+		margin-top: 10rem;
 	}
 
 	.content-values {
@@ -1447,7 +1447,7 @@
 	}
 
 	.banner-content-left .left-tag h3 {
-		font-size: 12px;
+		font-size: 16px;
 	}
 
 	.banner-content-left p {
@@ -1530,35 +1530,6 @@
 
 	/* END SERVICIOS PAGE */
 }
-
-
-@media (min-width: 1024px) and (max-width: 1366px ){
-/* IPAD PRO */
-body {
-	background-color: lightblue;
-}
-
-header .navbar {
-	background-color: salmon;
-	width: 100%;
-}
-
-.banner-service .header-img {
-	display: none;
-}
-
-.banner-service .header-img2{
-	background-color: peru;
-	width: 100vw;
-}
-
-.banner-service .header-img2 img{
-	/* object-fit: cover; */
-	width: 100%;
-}
-
-
-
 
 
 
