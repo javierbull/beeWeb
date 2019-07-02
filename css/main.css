@@ -226,7 +226,7 @@ body {
 
 .white-line {
     background-color: #fff;
-    width: 250px;
+    width: 200px;
     height: 4px;
 }
 
@@ -251,18 +251,12 @@ body {
   margin: 0;
 }
 
-.white-line {
-    background-color: #fff;
-    width: 250px;
-    height: 4px;
-}
-
 .about-text h2 {
   /* background-color: pink; */
   font-size: 65px;
   font-weight: 900;
   color: #333;
-  margin-top: -50px;
+  margin-top: -2.7rem;
   margin-left: 45px;
 }
 
@@ -305,7 +299,7 @@ body {
 
 .white-line-central {
     background-color: #fff;
-    width: 450px;
+    width: 350px;
     height: 4px;
 }
 
@@ -315,7 +309,7 @@ body {
   font-weight: 900;
   color: #333;
   text-align: center;
-  margin-top: -2.2rem;
+  margin-top: -2.7rem;
 }
 
 
