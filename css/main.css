@@ -1301,9 +1301,9 @@ footer img {
 }
 
 .service-block-page {
-  background-color: pink;
+  background-color: gray;
   margin-top: 7rem;
-  margin-bottom: 18rem;
+  margin-bottom: 22rem;
 }
 
 
@@ -1316,11 +1316,14 @@ footer img {
 }
 
 .service-block-page .central-tag {
+  background-color: lightblue;
   height: 60px;
 }
 
 .tag-block {
-  margin-top: -23.5rem;
+  background-color: purple;
+  opacity: .5;
+  margin-top: -29rem;
 }
 
 .service-block-content {
@@ -1328,7 +1331,7 @@ footer img {
 }
 
 .service-block-list {
-  background-color: lightGreen;
+  background-color: lightyellow;
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
