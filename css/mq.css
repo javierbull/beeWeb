@@ -1,91 +1,4 @@
 
-@media (min-width: 1024px) and (max-width: 1366px ) {
-	body {
-		background-color: orange;
-	}
-
-
-	.video-content {
-		background-color: green;
-		margin-top: 5rem;
-	}
-
-	.about-text {
-		margin-top: 0.5rem;
-	}
-
-}
-
-
-
-
-@media (min-width: 320px) and (max-width: 600px ) {
-	body{
-		/* background-color: red; */
-	}
-
-	.banner-block {
-		background-image: url(../img/bg-header.png);
-		height: auto;
-		background-size: cover;
-		padding-bottom: 50px;
-	}
-
-	.history-block h3 {
-		padding-top: 20px;
-	}
-
-	.team-card {
-		width: 90vw;
-	}
-
-	.team-card img {
-		width: 90vw;
-	}
-
-	.work-block h3 {
-		text-align: center;
-	}
-
-	.work-block a {
-		/* background-color: gold; */
-		display: inline-block;
-		margin-bottom: 20px;
-		display: flex;
-		justify-content: center;
-		align-items: center;
-	}
-
-	.img-work-1, .img-work-2 {
-		width: 100vw;
-		margin-left: auto;
-		margin-right: auto;
-	}
-
-
-	.footer-bottom-left, .footer-bottom-right {
-		text-align: center;
-	}
-
-}
-
-
-@media (min-width: 768px) and (max-width: 1024px ) {
-	body{
-		/* background-color: tomato; */
-	}
-
-	.team-card {
-		margin-left: auto;
-		margin-right: auto;
-	}
-
-	.footer-bottom-left, .footer-bottom-right {
-		text-align: center;
-	}
-
-
-}
 
 /************************************************************/
 
@@ -162,6 +75,7 @@
 *
 *
 */
+
 
 @media (min-width: 320px) and (max-width: 600px ) {
 
@@ -892,7 +806,8 @@
 
 
 /* TABLET******************************************* */
-@media (min-width: 768px) and (max-width: 1024px ) {
+/* @media (min-width: 768px) and (max-width: 1024px ) { */
+@media (min-width: 768px ) and (max-width: 1023px) {
 
 	body{
 		background-color: orchid;
@@ -1083,7 +998,10 @@
 	}
 
 	.kpi-card p {
+		background-color: pink;
 		font-size: 16px;
+		text-align: center;
+		margin: -1rem 0 0 0;
 	}
 
 	.tag-card {
@@ -1156,7 +1074,14 @@
 	.service-cards {
 	  background-color: pink;
 	  margin-top: 0;
+		margin-bottom: 50px;
 	}
+
+	.service-card:nth-child(3) {
+		background-color: teal;
+		margin: 0 auto;
+	}
+
 	/* END SERVICE SECTION */
 
 	/* FOOTER TABLET********************* */
@@ -1537,3 +1462,11 @@
 
 
 }
+
+
+/* @media (min-width: 1024px ){
+	body {
+		background-color: peru;
+	}
+
+} */
