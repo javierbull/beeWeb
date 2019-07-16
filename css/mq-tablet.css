@@ -308,8 +308,6 @@
 
 	/* banner section */
 
-
-
 	.central-tag {
 		margin-top: -1rem;
 	}
@@ -384,7 +382,7 @@
 	  height: auto;
 	  margin: 0 auto;
 	  display: grid;
-	  grid-template-columns: repeat(2, 335px);
+	  grid-template-columns: repeat(2, 1fr);
 	  grid-template-rows: repeat(4, 335px);
 	  grid-gap: 1rem;
 	  margin-top: 2rem;

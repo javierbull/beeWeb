@@ -553,7 +553,7 @@
 	.team-content {
 		/* display: none; */
 		background-color: lightyellow;
-		grid-template-columns: repeat(1, 90vw);
+		grid-template-columns: repeat(1, 1fr);
 	  grid-template-rows: repeat(8, 90vw);
 	}
 

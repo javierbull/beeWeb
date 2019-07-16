@@ -951,8 +951,6 @@ footer img {
 .team-content {
   background-color: lightblue;
   display: grid;
-  /* grid-template-columns: repeat(4, 280px);
-  grid-template-rows: repeat(2, 280px); */
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(2, 280px);
   grid-gap: .5rem;
