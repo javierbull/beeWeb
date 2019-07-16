@@ -342,8 +342,9 @@
 	}
 
 	.center-button {
-		background-color: tomato;
+		background-color: blue;
 	 	margin-top: 50px;
+    margin-bottom: 0;
 	}
 
 	.center-button a {
@@ -719,7 +720,7 @@
 	margin-top: : -2rem;
 }
 
-/* SERVICE SECTION************************* */
+/* SERVICE PAGE N************************* */
 
 .banner-service {
 	/* background-color: peru; */
@@ -766,11 +767,12 @@
 }
 
 .service-block-text {
-  height: 440px;
-  background-color: lightGreen;
+  height: auto;
+  background-color: gold;
   margin: 0 auto;
   border: solid 1px #707070;
-  padding: 2rem 1rem;
+  padding: 2rem 1rem 1rem 1rem;
+  margin-bottom: 3rem;
 }
 
 .service-block-text p{
@@ -790,7 +792,7 @@
 }
 
 
-/* END SERVICE SECTION */
+/* END SERVICIOS PAGE */
 
 
 }

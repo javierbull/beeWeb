@@ -20,7 +20,6 @@
 	.header-video {
 		height: 43vh;
 		width: 100vw;
-
 	}
 
 	.header-video video {
@@ -599,6 +598,7 @@
 		background-color: lightGreen;
 		margin-top: 6rem;
 		padding-bottom: 3rem;
+		margin-bottom: 5rem;
 	}
 
 	.service-block-text p {
