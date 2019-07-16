@@ -933,13 +933,29 @@ footer img {
 
 }
 
+/* prueba grid */
+.contenedor-grid {
+  background-color: lightGreen;
+  display: grid;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 280px);
+  grid-gap: .5rem;
+}
+
+.item-grid {
+  background-color: salmon;
+}
+/* end prueba grid */
+
 .team-content {
   background-color: lightblue;
-  height: auto;
   display: grid;
-  grid-template-columns: repeat(4, 280px);
+  /* grid-template-columns: repeat(4, 280px);
+  grid-template-rows: repeat(2, 280px); */
+  grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(2, 280px);
-  grid-gap: 1rem;
+  grid-gap: .5rem;
   margin-top: 2rem;
 }
 
@@ -975,6 +991,7 @@ footer img {
 .team-item:hover .overlay-team {
   opacity: 0.8;
 }
+
 
 .overlay-team span {
   /* color: white; */
